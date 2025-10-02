@@ -1,2 +1,3 @@
-# nydr-archive
-New York Disability Rights Archive site
+# site
+
+site files for content contributors
