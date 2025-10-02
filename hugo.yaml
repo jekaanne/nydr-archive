@@ -1,0 +1,150 @@
+baseURL: "https://nydisabilityrightsarchive.org/"
+languageCode: en-us
+title: New York Disability Rights Archive
+canonifyURLs: true
+relativeURLs: true
+capitalizeListTitles: false
+disablePathToLower: true
+params:
+  imagesFolder: /images
+  images:
+  description: 
+
+menu:
+  main:
+  - name: About
+    pageRef: /about
+    weight: 1
+  - name: Gallery
+    pageRef: /gallery
+    weight: 2
+  - name: Timeline
+    pageRef: /timeline
+    weight: 3
+  - name: Topics
+    pageRef: /topics
+    weight: 4
+  - name: Key Concepts
+    pageRef: /key-concepts
+    weight: 5
+  - name: Teaching Resources
+    pageRef: /teaching-resources
+    weight: 6
+  - name: Project History
+    pageRef: /project-history
+    weight: 7
+  - name: News and Events
+    pageRef: /news-and-events
+    weight: 8  
+  - name: Search
+    pageRef: /search
+    weight: 9
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      footnoteprefix: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      fn_id_prefix: 'title'
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+defaultContentLanguage: en
+
+mediaTypes:
+  application/atom:
+    suffixes:
+    - xml
+
+imaging:
+  anchor: Smart
+  bgColor: '#ffffff'
+  hint: photo
+  quality: 85
+  resampleFilter: box
+
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: static
+      target: static
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: assets
+      target: assets
+    - source: i18n
+      target: i18n
+    - source: archetypes
+      target: archetypes
+    - source: node_modules/bootstrap/scss
+      target: assets/scss/bootstrap
+    - source: node_modules/bootstrap/dist/js/bootstrap.min.js
+      target: assets/js/bootstrap.min.js
+
+ 
+
+# relativeURLs: true
+
+_build:
+  list: always
+  single: always
+  publishResources: true
+  render: always
+
+pagination:
+  pagerSize: 20
+summaryLength: 7
+
+outputs:
+  home:
+  - html
+  - rss
+  - json
+
+taxonomies:
+  category: categories
+  tag: tags
+
+timeout: 60000
+
+related:
+  includeNewer: true
+  threshold: 90
+  toLower: false
+  indices:
+    - name: title
+      weight: 30
+    - name: date
+      weight: 20
+    - name: eventname
+      weight: 50
