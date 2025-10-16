@@ -12,33 +12,12 @@ params:
 
 menu:
   main:
-  - name: About
+  - name: Introduction
     pageRef: /about
     weight: 1
-  - name: Gallery
-    pageRef: /gallery
-    weight: 2
-  - name: Timeline
-    pageRef: /timeline
-    weight: 3
   - name: Topics
     pageRef: /topics
-    weight: 4
-  - name: Key Concepts
-    pageRef: /key-concepts
-    weight: 5
-  - name: Teaching Resources
-    pageRef: /teaching-resources
-    weight: 6
-  - name: Project History
-    pageRef: /project-history
-    weight: 7
-  - name: News and Events
-    pageRef: /news-and-events
-    weight: 8  
-  - name: Search
-    pageRef: /search
-    weight: 9
+    weight: 2
 
 markup:
   goldmark:
