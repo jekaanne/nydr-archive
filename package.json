@@ -28,7 +28,7 @@
     "postcss-cli": "^10.1.0"
   },
   "otherDependencies": {
-    "hugo": "0.114.0"
+    "hugo": "0.147.5"
   },
   "devDependencies": {
     "sass-embedded": "^1.63.5"
