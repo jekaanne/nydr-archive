@@ -18,8 +18,7 @@
 }
 .grid-gallery .key-note:not(:focus):not(:focus-visible):not(:active) {
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
