@@ -4,9 +4,9 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "broken-queen-5740",
+	"name": "blue-poetry-95a5",
 	"main": "src/index.js",
-	"compatibility_date": "2025-10-11",
+	"compatibility_date": "2025-10-14",
 	"observability": {
 		"enabled": true
 	},
