@@ -29,5 +29,8 @@
   },
   "otherDependencies": {
     "hugo": "0.147.5"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
   }
 }
