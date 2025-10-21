@@ -2,7 +2,7 @@ name = "archive-wrangler"
 compatibility_date = "2025-10-16" 
 
 [build]
-command = "./build.sh"
+command = "chmod a+x build.sh && ./build.sh"
 
 [assets]
 directory = "./public"
