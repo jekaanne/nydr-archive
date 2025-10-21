@@ -36,11 +36,12 @@ jobs:
         run: echo "$GITHUB_WORKSPACE/dart-sass" >> $GITHUB_PATH
       - name: "npm ci"
         run: npm ci
+
       - name: "sass permission"
         run: chmod +x node_modules/.bin/sass
       - name: "npm run build"
         run: npm run build
-          - name: Build Coupled JS
+      - name: Build Coupled JS
         working-directory: ./pagefind_web_js
         run: npm i && npm run build-coupled
 
