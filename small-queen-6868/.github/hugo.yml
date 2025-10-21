@@ -1,0 +1,85 @@
+name: Deploy to web
+
+on:
+  push:
+    branches:
+      - main # or whatever you call your production branch
+
+env:
+  DART_SASS_VERSION: 1.62.1
+  HUGO_VERSION: 0.149.0 # will get Extended Version below
+  PAGEFIND_VERSION: 1.1.1
+  NODE: true
+  # if you have other environment variables,
+  # enter them here in similar fashion
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v3
+      - name: Download Hugo v${{ env.HUGO_VERSION }}
+        run: wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_linux-amd64.deb -O hugo_extended_${{ env.HUGO_VERSION }}_linux-amd64.deb
+      - name: Install Hugo v${{ env.HUGO_VERSION }}
+        run: sudo dpkg -i hugo*.deb
+      - name: Download Dart Sass v${{ env.DART_SASS_VERSION }}
+        run: curl -LJO https://github.com/sass/dart-sass/releases/download/${{ env.DART_SASS_VERSION }}/dart-sass-${{ env.DART_SASS_VERSION }}-linux-x64.tar.gz
+      - name: Unpack Dart Sass v${{ env.DART_SASS_VERSION }}
+        run: |
+          tar -xvf dart-sass-${{ env.DART_SASS_VERSION }}-linux-x64.tar.gz
+          dart-sass/sass --embedded --version          
+      - name: Add to the PATH
+        run: echo "$GITHUB_WORKSPACE/dart-sass" >> $GITHUB_PATH
+      - name: "npm ci"
+        run: npm ci
+      - name: "sass permission"
+        run: npm run grant-permiso
+      - name: "npm run build"
+        run: npm run build
+      - name: Build Coupled JS
+        working-directory: ./pagefind_web_js
+        run: npm i && npm run build-coupled
+
+      - name: Build WASM
+        working-directory: ./pagefind_web
+        run: ./local_build.sh
+
+      - name: Build UI
+        working-directory: ./pagefind_ui/default
+        run: npm i && npm run build
+
+      - name: Build Modular UI
+        working-directory: ./pagefind_ui/modular
+        run: npm i && npm run build
+
+      - name: Test Web
+        working-directory: ./pagefind_web
+        run: cargo test --release
+
+      - name: Build Testing Binary
+        working-directory: ./pagefind
+        run: cargo build --release --features extended
+
+      - name: Upload Testing Binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: pagefind-${{ matrix.target }}
+          path: target/release/pagefind${{ matrix.build == 'windows' && '.exe' || '' }}
+
+      - name: Test Lib
+        working-directory: ./pagefind
+        run: cargo test --release --lib --features extended
+      - name: Deploy to Server
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_SSH_KEY }}
+          ARGS: "-rlgoDzvc -i --delete"
+          SOURCE: "public/"
+          REMOTE_HOST: ${{ secrets.FTP_SERVER }}
+          REMOTE_USER: ${{ secrets.USERNAME }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}
+          EXCLUDE: "/dist/, /node_modules/"

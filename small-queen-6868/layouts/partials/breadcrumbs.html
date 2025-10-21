@@ -1,0 +1,13 @@
+<nav class="breadcrumb justify-content-left d-print-none" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+  {{ define "breadcrumb" }}
+  {{ with .Parent }}
+      {{ template "breadcrumb" . }}
+      <li class="breadcrumb-item"> <a href="{{ .RelPermalink }}">{{ if .IsHome }}Home{{ else }}{{ .Page.Title | page.RenderString }}{{ end }}</a></li>
+  {{ end }}
+  {{ end }}
+  {{ if not .IsHome }}
+      {{ template "breadcrumb" . }} &nbsp; > ...
+  {{ end }}
+</ol>
+</nav>

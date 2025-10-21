@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div  id="main" class="col-lg-10 mx-auto justify-content-center py-5 d-print-block" data-pagefind-ignore="all">
+  <title>{{ .Params.title }}</title>
+  <h1 class="pb-4">{{ .Title }}</h1>
+        {{ .Content | page.RenderString | safeHTML }}
+        {{ range .Paginator.Pages }}
+        <article>
+          <h2 class="list-page"><a href="{{ .RelPermalink }}">{{ .Title | page.RenderString }}</a></h2>
+          <div class="pb-3">
+            {{ .Summary | page.RenderString | safeHTML }}
+          </div>
+        </article>
+        {{ end }}
+        <div class="m-3 d-flex justify-content-center">
+          {{ partial "pagination.html" . }}
+        </div>
+        </div>
+{{ end }}

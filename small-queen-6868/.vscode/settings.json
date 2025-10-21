@@ -1,0 +1,9 @@
+{
+    "npm.enableRunFromFolder": true,
+    "npm.enableTouchbar": false,
+    "npm.validate.enable": false,
+    "npm-scripts.showStartNotification": false,
+    "search.useGlobalIgnoreFiles": false,
+    "search.useParentIgnoreFiles": true,
+    "search.useIgnoreFiles": true
+}

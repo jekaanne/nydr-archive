@@ -1,0 +1,4 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+        {{ .Content| page.RenderString | safeHTML }}
+{{ end }}
