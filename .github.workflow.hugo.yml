@@ -7,7 +7,7 @@ on:
 
 env:
   DART_SASS_VERSION: 1.62.1
-  HUGO_VERSION: 0.147.5+extended+withdeploy # will get Extended Version below
+  HUGO_VERSION: 0.149.0 # will get Extended Version below
   PAGEFIND_VERSION: 1.1.1
   NODE: true
   # if you have other environment variables,
@@ -36,6 +36,8 @@ jobs:
         run: echo "$GITHUB_WORKSPACE/dart-sass" >> $GITHUB_PATH
       - name: "npm ci"
         run: npm ci
+      - name: "sass permission"
+        run: chmod +x node_modules/.bin/sass
       - name: "npm run build"
         run: npm run build
           - name: Build Coupled JS
