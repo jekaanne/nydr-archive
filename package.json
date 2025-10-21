@@ -28,7 +28,7 @@
     "npm-check": "^6.0.1",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
-    "sass": "^1.62.1"
+    "sass-embedded-linux-x64": "^1.62.1"
   },
   "otherDependencies": {
     "hugo": "0.149.0"
