@@ -36,9 +36,8 @@ jobs:
         run: echo "$GITHUB_WORKSPACE/dart-sass" >> $GITHUB_PATH
       - name: "npm ci"
         run: npm ci
-
       - name: "sass permission"
-        run: chmod +x node_modules/.bin/sass
+        run: npm run grant-permiso
       - name: "npm run build"
         run: npm run build
       - name: Build Coupled JS
