@@ -3,7 +3,7 @@
      {{ $image := resources.Get (printf "/images/%s" .)}}
 <meta name="twitter:image" content="{{ $image.Permalink }}"/>
 {{ else }}
-<meta name="twitter:image" content="https://nyccivilrightshistory.org/img/nyccrh-logo-lg.jpg"/>
+<meta name="twitter:image" content="https://nydisabilityrightsarchive.org/img/nydr-logo.jpg"/>
 {{end}}
 <meta name="twitter:title" content="{{ .Title }}"/>
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
