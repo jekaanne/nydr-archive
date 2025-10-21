@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "head" . }}
+</head>
+<body class="min-vh-100 d-print-block">
+    <div class="container-fluid d-print-block" role="navigation">
+            <div class="col-auto px-2">
+        <div class="row row-offcanvas row-offcanvas-left">
+            <!-- sidebar -->
+            {{ partial "header-sidebar" . }}
+            <!-- main area -->
+                <main class="col">
+                    <div id="main" class="col-lg-12 mt-1 mx-auto d-print-block" data-pagefind-body>
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle btn btn-primary d-print-none d-lg-none" data-toggle="offcanvas" data-target=".sidebar-nav">Menu</button>
+                        </div>
+                    {{ block "main" . }}{{ end }}
+                </div>
+                </main>
+        </div>
+    </div>
+</div>
+{{ partial "scriptfooter" .}}
+</body>
+</body>
+</html>
+
+
