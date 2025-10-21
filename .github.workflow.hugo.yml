@@ -6,8 +6,8 @@ on:
       - main # or whatever you call your production branch
 
 env:
+  DART_SASS_VERSION: 1.93.2
   HUGO_VERSION: 0.147.5+extended+withdeploy # will get Extended Version below
-  DART_SASS_VERSION: 1.63.5
   PAGEFIND_VERSION: 1.1.1
   NODE: true
   # if you have other environment variables,
