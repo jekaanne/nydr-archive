@@ -1,11 +1,4 @@
-<!-- sass options common to dev and production -->
-{{ $optsToCSS := (dict "transpiler" "dartsass" "outputStyle" "compressed" "includePaths" (slice "node_modules")) }}
-<!-- production options -->
-{{ if eq hugo.Environment "development" }}
-{{ $optsToCSS = (dict "transpiler" "dartsass" "enableSourceMap" true "includePaths" (slice "node_modules")) }}
+{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
+{{ with resources.Get "sass/main.scss" | toCSS $opts | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
 {{ end }}
-<!-- get source file and compile -->
-{{ $scssMain := resources.Get . | css.Sass $optsToCSS }}
-{{ $css := $scssMain | css.Sass (dict "targetPath" "assets/css/main.css") }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}">
-<!-- gallery sass compile -->
