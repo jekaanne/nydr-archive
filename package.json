@@ -4,11 +4,11 @@
   "description": "site files for content contributors",
   "main": "index.js",
   "scripts": {
+    "grant-permiso": "chmod +x node_modules/.bin/sass",
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender",
     "dev:preview": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --buildFuture --buildDrafts",
-    "grant-permiso": "chmod +x node_modules/.bin/sass",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --gc --cleanDestinationDir --minify",
-    "deploy": "npm run build && wrangler pages deploy public --project-name archive-wrangler",
+    "build": "chmod u+rx exec-bin node_modules/.bin/hugo/hugo --gc --cleanDestinationDir --minify",
+    "deploy": "chmod u+rx npm run build && wrangler pages deploy public --project-name archive-wrangler",
     "renderToDisk:dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --renderToDisk --cleanDestinationDir",
     "renderToDisk:preview": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --buildDrafts --buildFuture ",
     "renderToDisk:production": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --gc --minify --environment production",
@@ -28,7 +28,7 @@
     "npm-check": "^6.0.1",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
-    "sass-embedded": "^1.62.1"
+    "sass": "^1.62.1"
   },
   "otherDependencies": {
     "hugo": "0.149.0"
