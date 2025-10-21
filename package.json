@@ -7,7 +7,7 @@
     "grant-permiso": "chmod +x node_modules/.bin/sass",
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender",
     "dev:preview": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --buildFuture --buildDrafts",
-    "build": "chmod u+rx exec-bin node_modules/.bin/hugo/hugo && --gc --cleanDestinationDir --minify",
+    "build": "exec-bin node_modules/.bin/hugo/hugo && --gc --cleanDestinationDir --minify",
     "deploy": "chmod u+rx npm run build && wrangler pages deploy public --project-name archive-wrangler",
     "renderToDisk:dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --renderToDisk --cleanDestinationDir",
     "renderToDisk:preview": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --buildDrafts --buildFuture ",
