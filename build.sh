@@ -61,6 +61,7 @@ main() {
 
   # Build the site
   echo "Building the site..."
+  chmod +x node_modules/.bin/sass
   hugo --gc --minify
 
 }
