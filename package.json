@@ -11,7 +11,7 @@
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender",
     "dev:preview": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --buildFuture --buildDrafts",
     "build": "exec-bin node_modules/.bin/hugo/hugo && --gc --cleanDestinationDir --minify",
-    "css-compile": "sass --style compressed --source-map --embed-sources --no-error-css --load-path=node_modules scss/:css/",
+    "css-compile": "sass --style compressed --source-map --embed-sources --no-error-css scss/:css/",
     "css-lint": "stylelint scss/",
     "deploy": "chmod u+rx npm run build && wrangler pages deploy public --project-name archive-wrangler",
     "renderToDisk:dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --renderToDisk --cleanDestinationDir",
@@ -25,7 +25,7 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.8",
+    "bootstrap": "^5.2.3",
     "exec-bin": "^1.0.0",
     "fuse.js": "^6.6.2",
     "hugo-installer": "^4.0.1",
