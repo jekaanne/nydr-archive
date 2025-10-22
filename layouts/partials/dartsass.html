@@ -1,9 +1,18 @@
-{{ $cssOpts := (dict "targetPath" "css/main.css" "enableSourceMap" true "outputStyle" "compressed") }}
-{{ $sassTemplate := resources.Get "scss/main.scss" }}
-{{ if $sassTemplate }}
-  {{ $style := $sassTemplate | toCSS $cssOpts }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-{{ else }}
-  <!-- Handle case where the Sass file is not found -->
-  <p>Error: main.scss not found in assets/scss.</p>
+{{ with resources.Get "scss/main.scss" }}
+  {{ $opts := dict
+    "enableSourceMap" hugo.IsDevelopment
+    "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
+    "targetPath" "css/main.css"
+    "transpiler" "dartsass"
+    "vars" site.Params.styles
+  }}
+  {{ with . | toCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}
