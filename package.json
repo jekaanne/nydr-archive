@@ -2,12 +2,17 @@
   "name": "site",
   "version": "1.0.0",
   "description": "site files for content contributors",
-  "main": "index.js",
+  "repository": "jekaanne/nydr-archive",
+  "stackblitz": {
+    "startCommand": "npm start"
+  },
   "scripts": {
     "grant-permiso": "chmod +x node_modules/.bin/sass",
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender",
     "dev:preview": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --buildFuture --buildDrafts",
     "build": "exec-bin node_modules/.bin/hugo/hugo && --gc --cleanDestinationDir --minify",
+    "css-compile": "sass --style compressed --source-map --embed-sources --no-error-css --load-path=node_modules scss/:css/",
+    "css-lint": "stylelint scss/",
     "deploy": "chmod u+rx npm run build && wrangler pages deploy public --project-name archive-wrangler",
     "renderToDisk:dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --renderToDisk --cleanDestinationDir",
     "renderToDisk:preview": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --buildDrafts --buildFuture ",
@@ -19,9 +24,8 @@
   "license": "ISC",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
-    "autoprefixer": "^10.4.14",
-    "bootstrap": "^5.3.0",
-    "bootstrap-print-css": "^1.0.1",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
     "exec-bin": "^1.0.0",
     "fuse.js": "^6.6.2",
     "hugo-installer": "^4.0.1",
@@ -31,6 +35,17 @@
     "sass": "^1.93.2"
   },
   "otherDependencies": {
-    "hugo": "0.149.0"
+    "hugo": "0.152.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "nodemon": "^3.1.10",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "sass": "^1.93.2",
+    "sirv-cli": "^3.0.1",
+    "stylelint": "^16.25.0",
+    "stylelint-config-twbs-bootstrap": "^16.1.0"
   }
 }
