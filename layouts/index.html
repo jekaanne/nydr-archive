@@ -1,24 +1,44 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-<head>
-    {{ partial "head" . }}
-</head>
-<div class="d-flex align-items-center p-3 mt-auto">
-    <div class="row justify-content-center align-items-center d-flex">
-        <div class="col-sm-4">
-            <img src="/img/nyccrh-logo-lg.jpg" alt="Illustration of protestors holding signs, a megaphone, and a banner that says New York City Civil Rights History (a teaching guide)" class="img-fluid responsive-figure-fullwidth">
-        </div>
-        <div class="col-sm-4">
-            <main>
-                <title>New York Disability Rights Archive</title>
-                    <p>{{ .Content| page.RenderString | safeHTML }}</p>
-                    <div>
-                        {{ with .Params.btn1 }}
-                        {{ if and .text .url }}
-                        <button class="btn btn-lg btn-primary interact px-4 me-2"><a href="{{ .url }}" style="text-decoration: none;">{{ .text }}</a></button>
-                        {{ end }}
+{{ define "main" }}
+<div class="col-lg-10 py-5 mx-auto justify-content-center d-print-block">
+    <div class="row mb-5">
+        <div class="col-fluid mb-5">
+            <title>{{ .Params.title }}</title>
+            {{ with .Params.featured }}
+ {{ $image := resources.Get (printf "/images/%s" .)}}
+     <img src="{{ ($image).RelPermalink }}" class="responsive-figure-fullwidth mx-auto" alt="{{with $.Params.featuredAlt}}{{ . }}{{else}}{{$.Title}}{{end}}" style="max-width: 100%;"/>
+ {{end}}</div>
+        <div class="col-fluid">
+            <p>{{ .Content | page.RenderString | safeHTML }}</p></div>
+    </div>
+            {{with .Params.cards}}            
+            <section>
+                <div class="container-fluid">
+                    <div class="gy-3 row">
+                        {{ range $index,$card:= . }}
+                        <div class="col-md-4">
+                            <div class="h-100 card mb-3">
+                                {{$alt:= .alt}}  
+                                {{with .img}}
+                                {{ $image := resources.Get (printf "images/%s" .)}}
+                                {{ with $image }}
+                                <img src="{{ ($image.Fill "400x300 top").RelPermalink }}" class="card-img-top img-fluid" alt="{{$alt}}" />
+                                {{ end }}
+                                {{end}}
+                                <div class="card-body">
+                                    <h1 class="card-title">{{ .title | page.RenderString | safeHTML }}</h1>
+                                    <p class="card-text">{{ .text | page.RenderString | safeHTML }}</p>
+                                    {{ with .btn }}
+                                    {{ if and .url .text }}
+                                    <a href="{{ .url }}" class="btn btn-primary">{{ .text }}</a>
+                                    {{ end }}
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
                         {{ end }}
                     </div>
-                </main>
-         </div>
-      </div>
+                </div>
+            </section>
+            {{end}}
+            </div>
+            {{end}}
