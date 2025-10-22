@@ -1,62 +1,63 @@
 @use "bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-@use "custom-variables";
-@use "bootstrap/scss/variables";
-@use "bootstrap/scss/variables-dark";
+@import "custom-variables";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
 
-// 3. Include remainder of required Bootstrap stylesheets
-@use "bootstrap/scss/maps";
-@use "bootstrap/scss/mixins";
+// 3. Include remainder of required bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
 
-// 4. Include any optional Bootstrap components as you like
+// 4. Include any optional bootstrap components as you like
 // scss-docs-start import-stack
 // Configuration
-@use "bootstrap/scss/utilities";
+//@import "../node_modules/bootstrap/scss/utilities";
 
 // Layout & components
-@use "bootstrap/scss/root";
-@use "bootstrap/scss/reboot";
-@use "bootstrap/scss/type";
-@use "bootstrap/scss/images";
-@use "bootstrap/scss/containers";
-@use "bootstrap/scss/grid";
-// @use "//bootstrap/scss/tables";
-// @use "//bootstrap/scss/forms";
-@use "bootstrap/scss/buttons";
-@use "bootstrap/scss/transitions";
-// @use "//bootstrap/scss/dropdown";
-// @use "//bootstrap/scss/button-group";
-@use "bootstrap/scss/nav";
-@use "bootstrap/scss/navbar";
-@use "bootstrap/scss/card";
-@use "bootstrap/scss/accordion";
-@use "bootstrap/scss/breadcrumb";
-@use "bootstrap/scss/pagination";
-// @use "//bootstrap/scss/badge";
-// @use "//bootstrap/scss/alert";
-// @use "//bootstrap/scss/progress";
-@use "bootstrap/scss/list-group";
-// @use "//bootstrap/scss/close";
-// @use "//bootstrap/scss/toasts";
-// @use "//bootstrap/scss/modal";
-// @use "//bootstrap/scss/tooltip";
-// @use "//bootstrap/scss/popover";
-// @use "//bootstrap/scss/carousel";
-// @use "//bootstrap/scss/spinners";
-@use "//bootstrap/scss/offcanvas";
-// @use "//bootstrap/scss/placeholders";
+//@import "../node_modules/bootstrap/scss/root";
+//@import "../node_modules/bootstrap/scss/reboot";
+//@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+// @import "//../node_modules/bootstrap/scss/tables";
+// @import "//../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/buttons";
+//@import "../node_modules/bootstrap/scss/transitions";
+// @import "//../node_modules/bootstrap/scss/dropdown";
+// @import "//../node_modules/bootstrap/scss/button-group";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/accordion";
+@import "../node_modules/bootstrap/scss/breadcrumb";
+@import "../node_modules/bootstrap/scss/pagination";
+// @import "//../node_modules/bootstrap/scss/badge";
+// @import "//../node_modules/bootstrap/scss/alert";
+// @import "//../node_modules/bootstrap/scss/progress";
+@import "../node_modules/bootstrap/scss/list-group";
+// @import "//../node_modules/bootstrap/scss/close";
+// @import "//../node_modules/bootstrap/scss/toasts";
+// @import "//../node_modules/bootstrap/scss/modal";
+// @import "//../node_modules/bootstrap/scss/tooltip";
+// @import "//../node_modules/bootstrap/scss/popover";
+// @import "//../node_modules/bootstrap/scss/carousel";
+// @import "//../node_modules/bootstrap/scss/spinners";
+@import "../node_modules/bootstrap/scss/offcanvas";
+// @import "//../node_modules/bootstrap/scss/placeholders";
 
 // Helpers
-@use "bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/helpers";
 
 // Utilities
-@use "bootstrap/scss/utilities/api";
+@import "../node_modules/bootstrap/scss/utilities/api";
 
 // scss-docs-end import-stack
 
 
 // 5. Add additional custom code here
+@import "custom";
 
-@use "custom";
-//@use "bootstrap-print-css/css/bootstrap-print";
+
+//@import "bootstrap-print-css/css/bootstrap-print";
