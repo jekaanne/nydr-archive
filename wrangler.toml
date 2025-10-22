@@ -7,6 +7,3 @@ command = "./build.sh"
 [assets]
 directory = "./public"
 not_found_handling = "404-page"
-
-[vars]
-DART_SASS_VERSION = "1.93.2"
