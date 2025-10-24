@@ -13,6 +13,19 @@ Disability rights are part of civil rights. They recognize that all people deser
 
 Disability is a broad term that covers many different disabilities. Often, individuals and organizations advocate for specific needs. For example, they might ask for tactile indicators for people who are blind in transportation environments, wheelchair ramps for buildings, or captions for audio information. Sometimes, people with different disabilities have similar needs or work together in a coalition to address the community’s diverse needs.
 
+### New York Disability Activism Before the ADA
+
+- 1901: Elizabeth Farrell teaches the first special education class in a public school. She was a strong advocate for universal education.
+- 1935: The League of the Physically Handicapped staged a 9-day sit-in at the Emergency Relief Bureau (ERB) in New York City, eventually winning 5,000 jobs for disabled New Yorkers
+- 1944: The Eastern Paralyzed Veterans Association (EPVA; now called United Spinal) was formed to advocate for rehabilitation and services for disabled veterans.
+- 1948: The AHRC was started by Ann Greenberg, who brought together parents of children with intellectual and developmental disabilities. They wanted their children to have access to education, therapies, employment, and to live in the community.
+- 1959: The first Occupational Day Center for disabled adults was opened by AHRC in Manhattan. The center taught job and likfe skills.
+- 1968: The Committee on the Handicapped is established by Mayor John Lindsay. It was formalized as an office in 1973. Today it is called the Mayors Office for People with Disabilities (MOPD).
+- 1969: New York-New Jersey TTY phone company is founded to make teletype calls more affordable for deaf people in the region.
+- 1970: Disabled In Action is founded by disabled New Yorkers, including Judy Heumann, Denise McQuade, Bobbi Linn, Frieda Tankas, Fred Francis, Pat Figueroa, Larry Weissberger, Susan Marcus, Jimmy Lynch and Roni Stier.
+- 1978: The New York Chapter of the National Paraplegia Foundation founds the Center for the Independence of the Disabled New York (CIDNY), the first independent living center in the state.
+- 1986: The New York Institute for Special Education (NYISE) expanded its focus to include children with learning and emotional disabilities.
+
 ## What’s in the archive?
 
 Decades before the ADA, New Yorkers were at the forefront of a movement to combat disability discrimination in employment, public services, public accommodations, and communications.
