@@ -117,13 +117,7 @@
                {{end}}{{ else }}{{ end }}
                   </div>
                 </div>
-            <div class="col mx-auto d-flex justify-content-between py-5 d-print-none">
-                {{ with .PrevInSection }}
-                <div class="float-left g-5"><a class="previous btn btn-primary text-left" href="{{.RelPermalink}}"> Previous Item </a></div>
-                {{ end }}
-                {{ with .NextInSection }}
-                <div class="float-right g-5"><a class="next  btn btn-primary text-right" href="{{.RelPermalink}}"> Next Item </a></div>
-                {{ end }}</div>
+            {{ partial "helpers/topic-navigation.html" . }}
                 <div class="col mx-auto justify-content-center d-print-none"><h2>You are here:</h2>
                   <p>{{ partial "breadcrumbs" . }}</p></div>
     </div>
