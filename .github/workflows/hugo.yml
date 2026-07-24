@@ -42,13 +42,8 @@ jobs:
         run: hugo --gc --cleanDestinationDir --minify
       - name: Run Pagefind
         run: npx -y pagefind --site public
-      - name: Deploy to Server
-        uses: easingthemes/ssh-deploy@main
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy public --project-name archive-wrangler
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_SSH_KEY }}
-          ARGS: "-rlgoDzvc -i --delete"
-          SOURCE: "public/"
-          REMOTE_HOST: ${{ secrets.FTP_SERVER }}
-          REMOTE_USER: ${{ secrets.USERNAME }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}
-          EXCLUDE: "/dist/, /node_modules/"
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
