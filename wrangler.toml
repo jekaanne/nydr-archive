@@ -1,6 +1,0 @@
-name = "archive-wrangler2" 
-compatibility_date = "2025-10-16" 
-pages_build_output_dir = "./public"
-
-[assets]
-directory = "./public"
