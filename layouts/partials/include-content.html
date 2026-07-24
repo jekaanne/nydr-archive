@@ -35,7 +35,7 @@
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p> <strong>Image Description:</strong> {{ .caption | markdownify}}</p>
+                            {{ if .caption }}<p> <strong>Image Description:</strong> {{ .caption | markdownify}}</p>{{ end }}
                             <p> <strong>Source:</strong> {{ .archive_source | markdownify}}</p>
                             <p> <strong>Permalink:</strong> {{ .source_link | markdownify}}</p>
                             <p> <strong>Copyright:</strong> {{ .copyright | markdownify}}</p>
