@@ -45,7 +45,7 @@ jobs:
       - name: Deploy to Cloudflare Pages
         run: |
           npx wrangler pages project create archive-wrangler2 --production-branch main || true
-          npx wrangler pages deploy
+          npx wrangler pages deploy public
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
