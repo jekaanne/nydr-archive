@@ -61,66 +61,6 @@
             {{- end }}
         </p>{{ end }}</div>
         {{ if .Params.docset }}<div class="col mx-auto d-print-block"><p class="px-3">This item is part of <a href="/topics/{{.Params.docset}}/{{.Params.bundle}}">"{{.Params.bundleTitle | page.RenderString | safeHTML}}"</a> in <a href="/topics/{{.Params.docset}}">"{{.Params.docsetTitle  | page.RenderString | safeHTML}}"</a></p></div>{{end}}
-        <div class="row mx-auto pt-3">
-                <details class="accordion d-print-block">
-                    <summary><span class="summary-title d-print-block">Item Details</span>
-                        <div class="summary-chevron-up d-print-none">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </div>
-                    </summary>
-                    <div class="summary-content d-print-block mx-3">
-                        <p> <strong>Date:</strong> {{ if .Params.Displaydate }}{{ .Params.Displaydate }}
-                            {{ else }}{{ .Params.Date.Format "Jan 2, 2006"}}{{ end }}
-                            {{ if .Params.author }} <p> <strong>Creator:</strong> {{ .Params.author | page.RenderString | safeHTML}}</p>{{ end }}
-                        <p> <strong>Source:</strong> {{ if .Params.source_link }}<a href="{{ .Params.source_link }}">{{ .Params.archive_source | page.RenderString | safeHTML}}</a>{{ else }} {{ .Params.archive_source | page.RenderString | safeHTML}}{{ end }}</p>
-                        <p> <strong>Copyright:</strong> {{ .Params.copyright | page.RenderString | safeHTML}}</p>
-                        <p> <strong>How to cite:</strong> {{ .Params.citation | page.RenderString | safeHTML}}</p>
-                   </div>
-                   <div class="summary-chevron-down d-print-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></div>
-                </details>
-                <details class="accordion">
-                    <summary>
-                        <span class="summary-title d-print-block">
-                            Questions to Consider</span>
-                            <div class="summary-chevron-up d-print-none">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                            </div>
-                    </summary>
-                    <div class="summary-content d-print-block">
-                        <ul>{{ range .Params.questions }}<li>{{ $.Page.RenderString . | safeHTML }}</li>{{ end }}</ul>
-                    </div>
-                    <div class="summary-chevron-down d-print-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></div>
-                </details>
-                <details class="references accordion">
-                    <summary>
-                        <span class="summary-title">References</span>
-                        <div class="summary-chevron-up d-print-none">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </div>
-                    </summary>
-                    <div class="summary-content"></div>
-                    <div class="summary-chevron-down d-print-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></div>
-                </details>
-                <details class="accordion d-print-none">
-                    <summary>
-                        <span class="summary-title d-print-none">How to Print this Page</span>
-                        <div class="summary-chevron-up d-print-none">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </div>
-                    </summary>
-                    <div class="summary-content d-print-none">
-                        <ul><li>Press Ctrl + P or Cmd + P to open the print dialogue window.</li>
-                            <li>Under settings, choose "display headers and footers" if you want to print page numbers and the web address.</li>
-                            <li>Embedded PDF files will not print as part of the page. For best printing results, download the PDF and print from Adobe Reader or Preview.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="summary-chevron-down d-print-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></div>
-                </details>
-        </div>
+
 
 
