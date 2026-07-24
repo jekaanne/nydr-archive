@@ -92,12 +92,7 @@
                         {{ end }}
                      </div>
   <div class="d-flex justify-content-between py-5">
-    {{ with .PrevInSection }}
-      <a class="previous" href="{{.Permalink}}"> Previous item </a>
-    {{ end }}
-    {{ with .NextInSection }}
-      <a class="next" href="{{.Permalink}}"> Next item </a>
-    {{ end }}</div>
+    {{ partial "helpers/topic-navigation.html" . }}</div>
 </div>
                       </div>
     

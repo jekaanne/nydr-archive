@@ -1,0 +1,61 @@
+{{- $page := . -}}
+{{- $scratch := newScratch -}}
+{{- $scratch.Set "list" slice -}}
+
+{{- /* Recursively collect pages in order */ -}}
+{{- template "collect-pages" (dict "page" (.Site.GetPage "section" "topics") "scratch" $scratch) -}}
+{{- define "collect-pages" -}}
+  {{- $page := .page -}}
+  {{- $scratch := .scratch -}}
+  {{- /* Only add if it's a page or section (not taxonomy terms etc.) */ -}}
+  {{- if or (eq $page.Kind "page") (eq $page.Kind "section") -}}
+    {{- $scratch.Add "list" (slice $page) -}}
+  {{- end -}}
+  {{- range $page.Pages -}}
+    {{- template "collect-pages" (dict "page" . "scratch" $scratch) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $flatList := $scratch.Get "list" -}}
+{{- $currentIndex := -1 -}}
+
+{{- /* Find the current page index */ -}}
+{{- range $index, $element := $flatList -}}
+  {{- if eq $element.RelPermalink $page.RelPermalink -}}
+    {{- $currentIndex = $index -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $prevPage := "" -}}
+{{- $nextPage := "" -}}
+
+{{- if ge $currentIndex 0 -}}
+  {{- $prevIndex := sub $currentIndex 1 -}}
+  {{- $nextIndex := add $currentIndex 1 -}}
+  
+  {{- if ge $prevIndex 0 -}}
+    {{- $prevPage = index $flatList $prevIndex -}}
+  {{- end -}}
+  
+  {{- if lt $nextIndex (len $flatList) -}}
+    {{- $nextPage = index $flatList $nextIndex -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="col-lg-10 mx-auto d-flex justify-content-between py-5 d-print-none">
+    <div class="float-left g-5">
+        {{- if $prevPage -}}
+            <a class="previous btn btn-primary text-left" href="{{ $prevPage.RelPermalink }}">
+                Previous: {{ $prevPage.Title }}
+            </a>
+        {{- end -}}
+    </div>
+    
+    <div class="float-right g-5">
+        {{- if $nextPage -}}
+            <a class="next btn btn-primary text-right" href="{{ $nextPage.RelPermalink }}">
+                Next: {{ $nextPage.Title }}
+            </a>
+        {{- end -}}
+    </div>
+</div>
