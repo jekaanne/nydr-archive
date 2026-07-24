@@ -1,9 +1,6 @@
 name = "archive-wrangler2" 
 compatibility_date = "2025-10-16" 
+pages_build_output_dir = "./public"
 
 [build]
 command = "./build.sh"
-
-[assets]
-directory = "./public"
-not_found_handling = "404-page"
