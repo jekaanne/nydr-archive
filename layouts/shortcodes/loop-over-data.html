@@ -1,7 +1,7 @@
 {{- $json_filename := .Get "src" | default "data.json" -}}
 {{- $json_data_filepath := path.Join "content" (path.Dir .Page.File) $json_filename -}}
 {{- if fileExists $json_data_filepath -}}
-  {{- $json_data := getJSON $json_data_filepath -}}
+  {{- $json_data := transform.Unmarshal (os.ReadFile $json_data_filepath) -}}
   {{- $json_varname := .Get "var" -}}
   {{- $var_value := index $json_data $json_varname -}}
   {{- if $var_value -}}

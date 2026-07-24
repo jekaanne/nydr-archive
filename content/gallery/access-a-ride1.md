@@ -1,14 +1,14 @@
 ---
 layout: gallery
-draft: true
+draft: false
 docset:
 bundle:
 date: 1000-01-01
 displaydate: "1000-2000"
-title: Title in Title Case
+title: Access-A-Ride 1
 author:
 citation: 
-featured: 
+featured: access-a-ride1.jpg
 featuredAlt: 
 detailedDescr: 
 embed: 

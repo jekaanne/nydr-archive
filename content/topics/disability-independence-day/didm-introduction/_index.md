@@ -1,0 +1,163 @@
+---
+title: "Introduction"
+layout: subtopic-gallery
+---
+
+In 1990, the United States passed the Americans with Disabilities Act (ADA), a historic law protecting the rights of people with disabilities. Three years later, more than 2,000 disabled New Yorkers marched in the streets to celebrate their new independence. Decades later, we look back to ask: What were the goals of these early organizers? What major victories have been won since then, and what still needs to change today?
+This exhibit was curated by Jessica Murray. The items come from the Disability Independence Day March Collection, part of the New York Disability Rights Archive at the College of Staten Island. They were donated by activists Nadina LaSpina and Carr Massi. Unless noted otherwise, photos were taken by Harriet Zucker or by unknown volunteers.
+
+## SPONSORS OF THE DIDM '93
+
+- 504 Democratic Club
+- ACT UP/NY
+- Action Medical Supply
+- AIDS Center of Queens County
+- AIDS Resource Center
+- AIDS Service Center of Lower Manhattan
+- Al Pacino
+- Amalgamated Clothing & Textile
+- Workers Union
+- American Foundation for AIDS Research
+- Arthritis Foundation
+- Asian Deaf Advocates
+- Association of Legal Aid Attorneys
+- Barrier Free Living
+- Bellevue Hospital Community Board
+- Black Deaf Advocates
+- Black Leadership Commission on AIDS
+- Body Positive of New York
+- Borough President Ruth Messinger
+- Broadway Cares/Equity Fights AIDS
+- Bronx AIDS Service, Inc.
+- Bronx Independent Living Center
+- Brooklyn Center for the Independence of the Disabled
+- Brooklyn-wide Interagency Council for the Aging, Inc.
+- Cancer Care, Inc.
+- Catholic Charities Office for Disabled Persons of the Diocese of
+- Brooklyn/Queens
+- Center Bridge
+- Center for Constitutional Rights
+- Center for the Independence of the
+- Disabled of NY
+- Chelsea Reform Democratic Club
+- Chelsea Speak Out
+- Chris Burke
+- Citizen Action, NY
+- City Council President Andrew Stein
+- Community Advocacy Center, Inc.
+- Congressman Major Owens
+- Council of Motion Picture and Television Unions
+- Councilman Tom Duane
+- Deaf AIDS Project
+- Deaf Awareness Week/Empire State Association of the Deaf
+- D.C. 37, AFSCME
+- DC 1707, AFSCME
+- Democratic Socialists of America, NY
+- D.I.A.L. New Jersey
+- Disabled in Action of Metropolitan NY
+- Disability Law Center at NY Lawyers of the Public Interest
+- East Siders for Universal Health Care
+- Eastern Paralyzed Veterans Association
+- ELESAIR AIDS Project
+- El Puente de Williamsburg
+- Friends and Advocates of the Mentally III
+- Garfield Manor
+- Gay & Lesbian Independent Democrats
+- Gay Men's Health Crisis
+- Greater Brownsville Youth Council, Inc.
+- Gray Panthers of New York City
+- Gray Panthers of Suffolk County
+- Guide Dog Users Association
+- Haitian Coalition on AIDS
+- Harlem Independent Living Center
+- Health Care Policy Network, NASW, NYC Chapter
+- Health Care We Gotta Have It!
+- Hemophilia Association of NY
+- Heritage of Pride
+- HIV Law Project
+- Hospital Audiences, Inc.
+- Housing Works, Inc.
+- Hunger Action Network, NYS
+- Intercouncil Community Fellowship
+- Interfaith Nutrition Network
+- International Care for the Disabled
+- Itzhak Perlman
+- Jews for Racial and Economic Justice
+- Jobs for Justice
+- Joint Public Affairs Committee for Older Adults
+- Lois Kaggen
+- Lambda Legal Defense Fund
+- Local 107 International Paper Workers Union
+- Local 1199 Health & Hospital Workers Union
+- Local 802 American Federation of Musicians
+- Local 840 International Brotherhood of Teamsters
+- District 1 Locals 1103, 1105 & 1180
+- Communication Workers of America
+- Long Island Progressive Coalition, Citizen Action NY
+- Long Island University, Brooklyn Campus, Special Service Program
+- Lower East Side Family Union
+- Manhattan Plaza Foundation AIDS Project
+- Mary Somoza
+- Matt Dillion
+- Minority Task Force on AIDS
+- NYS Martin Luther King, Jr. Commission
+- Mayor David Dinkins
+- Mt. Sinai Hospital Department of Physical Rehabilitation
+- Motion Picture Video Tape Editors Local 771/IATSE
+- Multiple Sclerosis Society NYC Chapter
+- Nassau Coalition for National Health Plan
+- National Abortion Rights League, NY Chapter
+- National Womens Political Caucus, NYS
+- National Transplant Support Network
+- National Council on Disability
+- National Foundation for the Blind
+- New Democratic Coalition
+- NYCOSH
+- New York AIDS Coalition
+- NY Society for the Deaf
+- NY Jobs with Justice Health Care Campaign
+- NY Metro Mobilization for National Health Care
+- National Organization of Women, New York Chapter
+- N.O.W. in Queens NY
+- Committees of Correspondence
+- NYC Commission on Human Rights
+- NYS Health Care Campaign
+- New York State Nurses Association
+- NYS Division of Human Rights
+- NY Statewide Senior Action Council
+- Older Parenthood of NYC, Inc.
+- People with AIDS Coalition
+- Physicians for a National Health Program, Inc.
+- Queens Borough President Claire Shulman
+- Queens Independent Living Center
+- Queens Coalition for Political Alternatives
+- Queens Gays & Lesbians United
+- Radical Women
+- Screen Actors Guild
+- Senator Tom Harkin
+- Sharon Mistler
+- Shelter Program Development Committee
+- Stamp Out AIDS
+- Staten Island AIDS Task Force
+- Staten Island Independent Living Center
+- Students Association of SUNY
+- Students with Disabilities Caucus of SASU
+- Suffolk Coalition for a National Health Plan
+- The Gay Games
+- The Freedom Socialist Party
+- The Governor's Office of Advocate for the Disabled
+- The Hetrick-Martin Institute
+- The Momentum Project, Inc.
+- The Little Peoples Association of America
+- The Mayors Office for
+- People with Disabilities
+- U.C.P. Associations of New Jersey
+- U.C.P. of Staten Island
+- United Auto Workers Local 259
+- United Cerebral Palsy of New York
+- United Community Centers, Inc.
+- United Federation of Teachers
+- U.S. Students Association
+- Waterway Project of TPP
+- Women & AIDS Resources Network
+- Women in Crisis

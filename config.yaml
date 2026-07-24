@@ -17,9 +17,6 @@ menu:
   - name: Introduction
     pageRef: /introduction
     weight: 1
-  - name: Topics
-    pageRef: /topics
-    weight: 2
 
 markup:
   goldmark:

@@ -422,15 +422,15 @@ ol ol {
 
 .navigation a {
     background-color: #F3C858;
-    color: #303F9F;
+    color: #000000;
     font-weight: bold;
     font-size: 1.25em;
     border: none
 }
 
 .navigation a:hover {
-    background-color: #303F9F;
-    color: #F3C858;
+    background-color: #F3C858;
+    color: #2563eb;
     font-weight: bold;
     font-size: 1.25em;
     border: none
@@ -485,6 +485,14 @@ a:hover {
 }
 a:active {
     color: inherit;
+}
+
+a.card-link {
+    color: #000000 !important;
+}
+
+a.card-link:hover {
+    color: #2563eb !important;
 }
 
 .card a{

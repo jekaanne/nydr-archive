@@ -1,0 +1,112 @@
+baseURL = "https://nydisabilityrightsarchive.org/"
+languageCode = "en-us"
+title = "New York Disability Rights Archive"
+canonifyURLs = true
+relativeURLs = true
+capitalizeListTitles = false
+disablePathToLower = true
+assetDir = "assets"
+ignoreLogs = "warning-goldmark-raw-html"
+defaultContentLanguage = "en"
+summaryLength = 7
+timeout = 60000
+
+[params]
+imagesFolder = "/images"
+images = []
+description = ""
+
+[[menu.main]]
+name = "Introduction"
+pageRef = "/introduction"
+weight = 1
+
+
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+footnoteprefix = true
+linkify = true
+linkifyProtocol = "https"
+strikethrough = true
+table = true
+taskList = true
+fn_id_prefix = "title"
+
+[markup.goldmark.extensions.typographer]
+apostrophe = "&rsquo;"
+disable = false
+ellipsis = "&hellip;"
+emDash = "&mdash;"
+enDash = "&ndash;"
+leftAngleQuote = "&laquo;"
+leftDoubleQuote = "&ldquo;"
+leftSingleQuote = "&lsquo;"
+rightAngleQuote = "&raquo;"
+rightDoubleQuote = "&rdquo;"
+rightSingleQuote = "&rsquo;"
+
+[markup.goldmark.parser]
+autoHeadingID = true
+autoHeadingIDType = "github"
+wrapStandAloneImageWithinParagraph = true
+
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
+xhtml = false
+
+[mediaTypes."application/atom"]
+suffixes = ["xml"]
+
+[imaging]
+anchor = "Smart"
+bgColor = "#ffffff"
+hint = "photo"
+quality = 85
+resampleFilter = "box"
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "node_modules/bootstrap/scss"
+target = "assets/scss/bootstrap"
+
+[build]
+list = "always"
+single = "always"
+publishResources = true
+render = "always"
+
+[pagination]
+pagerSize = 20
+
+[outputs]
+home = ["html", "rss", "json"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[related]
+includeNewer = true
+threshold = 90
+toLower = false
+
+[[related.indices]]
+name = "title"
+weight = 30
+
+[[related.indices]]
+name = "date"
+weight = 20
+
+[[related.indices]]
+name = "eventname"
+weight = 50

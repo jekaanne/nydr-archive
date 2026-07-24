@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div id="main" class="col-lg-10 mx-auto justify-content-center py-5 d-print-block">
+    {{ partial "breadcrumbs" . }}
     <title>{{ .Params.title }}</title>
                 <h1>{{ .Page.Params.title }}</h1>
                  <p>{{ .Content | page.RenderString | safeHTML }}</p></details>
@@ -9,7 +10,7 @@
                     <div class="gy-3 row">
                         {{ range $index,$card:= . }}
                         <div class="col-md-4">
-                            <a href="{{ .btn.url }}"><div class="h-100 card mb-3">
+                            <a href="{{ .btn.url }}" class="card-link text-decoration-none"><div class="h-100 card mb-3">
                                 {{$alt:= .alt}}  
                                 {{with .img}}
                                 {{ $image := resources.Get (printf "images/%s" .)}}

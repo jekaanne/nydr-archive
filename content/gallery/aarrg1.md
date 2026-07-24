@@ -7,10 +7,10 @@ bundle: walking
 bundleTitle: Walking
 date: 
 displaydate: 
-title: Accessible Pedestrian Signals (APS)
+title: AARRG!
 author: 
 citation: 
-featured: aps-photo.jpg
+featured: aarrg1.jpg
 featuredAlt: 
 detailedDescr: 
 embed: 

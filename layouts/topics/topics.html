@@ -9,7 +9,7 @@
                     <div class="gy-3 row">
                         {{ range $index,$card:= . }}
                         <div class="col-md-4">
-                            <a href="{{ .btn.url }}"><div class="h-100 card mb-3">
+                            <a href="{{ .btn.url }}" class="card-link text-decoration-none"><div class="h-100 card mb-3">
                                 {{$alt:= .alt}}  
                                 {{with .img}}
                                 {{ $image := resources.Get (printf "images/%s" .)}}
