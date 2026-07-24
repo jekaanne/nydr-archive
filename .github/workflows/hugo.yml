@@ -40,39 +40,8 @@ jobs:
         run: npm run grant-permiso
       - name: "hugo build"
         run: hugo --gc --cleanDestinationDir --minify
-      - name: Build Coupled JS
-        working-directory: ./pagefind_web_js
-        run: npm i && npm run build-coupled
-
-      - name: Build WASM
-        working-directory: ./pagefind_web
-        run: ./local_build.sh
-
-      - name: Build UI
-        working-directory: ./pagefind_ui/default
-        run: npm i && npm run build
-
-      - name: Build Modular UI
-        working-directory: ./pagefind_ui/modular
-        run: npm i && npm run build
-
-      - name: Test Web
-        working-directory: ./pagefind_web
-        run: cargo test --release
-
-      - name: Build Testing Binary
-        working-directory: ./pagefind
-        run: cargo build --release --features extended
-
-      - name: Upload Testing Binary
-        uses: actions/upload-artifact@v7
-        with:
-          name: pagefind-${{ matrix.target }}
-          path: target/release/pagefind${{ matrix.build == 'windows' && '.exe' || '' }}
-
-      - name: Test Lib
-        working-directory: ./pagefind
-        run: cargo test --release --lib --features extended
+      - name: Run Pagefind
+        run: npx -y pagefind --site public
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@main
         env:
