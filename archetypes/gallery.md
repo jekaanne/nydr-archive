@@ -39,7 +39,7 @@ questions:
 references:
   - Reference 1
   - Reference 2
-  - Reference 3
+  -
 ---
 
 Some context for the item. Use Markdown styling (see link below)

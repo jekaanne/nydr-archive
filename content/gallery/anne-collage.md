@@ -1,14 +1,14 @@
 ---
 layout: gallery
-draft: true
+draft: false
 docset:
 bundle:
 date: 1000-01-01
 displaydate: "1000-2000"
-title: Title in Title Case
+title: Anne Collage
 author:
 citation: 
-featured: 
+featured: anne-collage.jpg
 featuredAlt: 
 detailedDescr: 
 embed: 

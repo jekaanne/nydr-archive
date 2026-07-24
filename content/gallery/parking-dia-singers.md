@@ -1,14 +1,14 @@
 ---
 layout: gallery
-draft: true
+draft: false
 docset:
 bundle:
 date: 1000-01-01
 displaydate: "1000-2000"
-title: Title in Title Case
+title: Parking Dia Singers
 author:
 citation: 
-featured: 
+featured: parking-dia-singers.jpg
 featuredAlt: 
 detailedDescr: 
 embed: 

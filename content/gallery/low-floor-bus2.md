@@ -1,14 +1,14 @@
 ---
 layout: gallery
-draft: true
+draft: false
 docset:
 bundle:
 date: 1000-01-01
 displaydate: "1000-2000"
-title: Title in Title Case
+title: Low Floor Bus2
 author:
 citation: 
-featured: 
+featured: low-floor-bus2.jpg
 featuredAlt: 
 detailedDescr: 
 embed: 

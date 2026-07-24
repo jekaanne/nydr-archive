@@ -11,42 +11,42 @@ cards:
   alt: A man in a wheelchair unable to get onto a curb
   text: Walking connects people to places and other modes of transportation. People who use wheelchairs still “walk,” and they credit their freedom and independence to their wheelchairs.
   btn:
-    text: Read about objects
+    text: Learn more
     url: /topics/transportation/walking
 - title: Automobiles
   img: designed-for-access1.jpg
   alt: A design pamphlet for the MV1 automobile
   text: In New York City, cars, taxis, and for-hire vehicles are reliable ways for people with disabilities to get around. But they haven’t always been fully accessible.
   btn:
-    text: Read about objects
+    text: Learn more
     url: /topics/transportation/automobiles
 - title: Paratransit
   img: access-a-ride2.jpg
   alt: A paratransit driver helps a woman off the vehicle
   text: People who relied on cars advocated for a public paratransit option that was affordable and accessible.
   btn:
-    text: Read about objects
+    text: Learn more
     url: /topics/transportation/paratransit
 - title: Buses
   img: low-floor-bus1.jpg
   alt: A man in a wheelchair exits a bus from a lift at the back of the bus
   text: Today's buses have low floors and ramps that fold out for wheelchair users. But older buses were much harder to use. 
   btn:
-    text: Read about objects
+    text: Learn more
     url: /topics/transportation/buses
 - title: Subways and trains
   img: key-stations2.jpg
   alt: A pamphlet about the first accessible subway stations and a map
   text: Most subways were built in the 1930s, before wheelchair access was considered important. After World War II, veterans pushed for accessible public transportation laws, but officials said it would cost too much.
   btn:
-    text: Read about objects
+    text: Learn more
     url: /topics/transportation/subways-and-trains
 - title: Travel Training
   img: communication-help3.jpg
   alt: A young man asks a bus operator for directions, showing his phone
   text: If people don’t know how to travel, they can’t access transportation. Most people learn to travel by going places with their family or on school trips. Sometimes we assume people know how to travel, but it's not always easy.
   btn:
-    text: Read about objects
+    text: Learn more
     url: /topics/transportation/travel-training
 ---
 There are many ways to get around the city. You can walk, drive (or be driven) in a car or a bus, ride the subways and trains, or cross the water in a ferry. All forms of transportation have been made more accessible in the past 50 years, but there are still access barriers today.
