@@ -1,18 +1,21 @@
 {{- $page := . -}}
+{{- if eq $page.Kind "section" -}}
+
 {{- $scratch := newScratch -}}
 {{- $scratch.Set "list" slice -}}
 
-{{- /* Recursively collect pages in order */ -}}
-{{- template "collect-pages" (dict "page" (.Site.GetPage "section" "topics") "scratch" $scratch) -}}
-{{- define "collect-pages" -}}
+{{- /* Recursively collect section pages in order */ -}}
+{{- template "collect-sections" (dict "page" (.Site.GetPage "section" "topics") "scratch" $scratch) -}}
+{{- define "collect-sections" -}}
   {{- $page := .page -}}
   {{- $scratch := .scratch -}}
-  {{- /* Only add if it's a page (skip list pages/sections) */ -}}
-  {{- if eq $page.Kind "page" -}}
+  {{- /* Only add if it's a section, and skip the root topics section itself */ -}}
+  {{- if and (eq $page.Kind "section") (ne $page.RelPermalink "/topics/") -}}
     {{- $scratch.Add "list" (slice $page) -}}
   {{- end -}}
-  {{- range $page.Pages -}}
-    {{- template "collect-pages" (dict "page" . "scratch" $scratch) -}}
+  {{- /* .Sections iterates over sub-sections recursively */ -}}
+  {{- range $page.Sections -}}
+    {{- template "collect-sections" (dict "page" . "scratch" $scratch) -}}
   {{- end -}}
 {{- end -}}
 
@@ -30,7 +33,6 @@
 {{- $nextPage := "" -}}
 
 {{- if ge $currentIndex 0 -}}
-  {{- /* Normal page in the list */ -}}
   {{- $prevIndex := sub $currentIndex 1 -}}
   {{- $nextIndex := add $currentIndex 1 -}}
   
@@ -40,24 +42,6 @@
   
   {{- if lt $nextIndex (len $flatList) -}}
     {{- $nextPage = index $flatList $nextIndex -}}
-  {{- end -}}
-{{- else -}}
-  {{- /* Section page not in the list. Find its first descendant. */ -}}
-  {{- $childIndex := -1 -}}
-  {{- range $index, $element := $flatList -}}
-    {{- if and (eq $childIndex -1) (hasPrefix $element.RelPermalink $page.RelPermalink) -}}
-      {{- $childIndex = $index -}}
-    {{- end -}}
-  {{- end -}}
-  
-  {{- if ge $childIndex 0 -}}
-    {{- /* Next is the first child, Prev is the item before the first child */ -}}
-    {{- $nextPage = index $flatList $childIndex -}}
-    
-    {{- $prevIndex := sub $childIndex 1 -}}
-    {{- if ge $prevIndex 0 -}}
-      {{- $prevPage = index $flatList $prevIndex -}}
-    {{- end -}}
   {{- end -}}
 {{- end -}}
 
@@ -78,3 +62,5 @@
         {{- end -}}
     </div>
 </div>
+
+{{- end -}}
