@@ -1,6 +1,7 @@
 ---
 title: "Introduction"
 layout: subtopic-gallery
+weight: 1
 ---
 
 In 1990, the United States passed the Americans with Disabilities Act (ADA), a historic law protecting the rights of people with disabilities. Three years later, more than 2,000 disabled New Yorkers marched in the streets to celebrate their new independence. Decades later, we look back to ask: What were the goals of these early organizers? What major victories have been won since then, and what still needs to change today?

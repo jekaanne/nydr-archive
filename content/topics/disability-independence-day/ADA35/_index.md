@@ -1,6 +1,7 @@
 ---
 title: "ADA35"
 layout: subtopic-gallery
+weight: 14
 ---
 
 In July 2025, activists organized a march for the 35th anniversary of the ADA. This time, they did not ask the city for a permit. They gathered in Washington Square Park to speak out against recent attacks on disability rights, and then marched to Union Square.

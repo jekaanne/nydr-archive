@@ -1,5 +1,6 @@
 ---
 title: Proclamation
+citation: 
 featured: proclamation.jpg
 featuredAlt: A printout of the proclamation, featuring icons of hands performing sign language
 Displaydate: "1993"

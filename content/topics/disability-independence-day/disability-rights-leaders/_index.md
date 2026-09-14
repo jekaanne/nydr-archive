@@ -2,6 +2,7 @@
 title: "Defining Disability Rights"
 layout: subtopic-gallery
 date: 1993-07-26
+weight: 2
 ---
 
 One of the most famous photos of the disability rights movement was taken on July 25, 1993, during the second annual march in New York City by Tari Hartman Squire.

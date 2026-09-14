@@ -1,6 +1,7 @@
 ---
 title: "Empowerment"
 layout: subtopic-gallery
+weight: 5
 ---
 
 Empowerment was a major theme for the march. The day was about celebrating independence and pride. It was also about the new legal power granted to disabled people and the strength that comes from being part of a proud community.
