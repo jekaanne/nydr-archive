@@ -1,5 +1,6 @@
 ---
 title: ATTENTION LESBIANS, GAYS & BISEXUALS
+citation: 
 featured: coalition-building2.jpg
 featuredAlt: A yellow flyer
 date: 1993-07-25

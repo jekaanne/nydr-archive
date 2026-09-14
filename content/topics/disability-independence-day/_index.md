@@ -4,34 +4,6 @@ title: "Disability Independence Day"
 weight: 2
 draft: false
 cards:
-- title: "ADA35"
-  img: ""
-  alt: ""
-  text: ""
-  btn:
-    text: "View gallery"
-    url: "/topics/disability-independence-day/ADA35/"
-- title: "Access"
-  img: ""
-  alt: ""
-  text: ""
-  btn:
-    text: "View gallery"
-    url: "/topics/disability-independence-day/access/"
-- title: "Behind The Scenes"
-  img: ""
-  alt: ""
-  text: ""
-  btn:
-    text: "View gallery"
-    url: "/topics/disability-independence-day/behind-the-scenes/"
-- title: "Coalition Building"
-  img: ""
-  alt: ""
-  text: ""
-  btn:
-    text: "View gallery"
-    url: "/topics/disability-independence-day/coalition-building/"
 - title: "Introduction"
   img: ""
   alt: ""
@@ -46,6 +18,20 @@ cards:
   btn:
     text: "View gallery"
     url: "/topics/disability-independence-day/disability-rights-leaders/"
+- title: "Behind The Scenes"
+  img: ""
+  alt: ""
+  text: ""
+  btn:
+    text: "View gallery"
+    url: "/topics/disability-independence-day/behind-the-scenes/"
+- title: "Access"
+  img: ""
+  alt: ""
+  text: ""
+  btn:
+    text: "View gallery"
+    url: "/topics/disability-independence-day/access/"
 - title: "Empowerment"
   img: ""
   alt: ""
@@ -74,13 +60,6 @@ cards:
   btn:
     text: "View gallery"
     url: "/topics/disability-independence-day/inclusion/"
-- title: "Platform"
-  img: ""
-  alt: ""
-  text: ""
-  btn:
-    text: "View gallery"
-    url: "/topics/disability-independence-day/platform/"
 - title: "Political Power"
   img: ""
   alt: ""
@@ -95,13 +74,6 @@ cards:
   btn:
     text: "View gallery"
     url: "/topics/disability-independence-day/pride/"
-- title: "Proclamation"
-  img: ""
-  alt: ""
-  text: ""
-  btn:
-    text: "View gallery"
-    url: "/topics/disability-independence-day/proclamation/"
 - title: "Representation"
   img: ""
   alt: ""
@@ -116,6 +88,27 @@ cards:
   btn:
     text: "View gallery"
     url: "/topics/disability-independence-day/solidarity/"
+- title: "Coalition Building"
+  img: ""
+  alt: ""
+  text: ""
+  btn:
+    text: "View gallery"
+    url: "/topics/disability-independence-day/coalition-building/"
+- title: "ADA35"
+  img: ""
+  alt: ""
+  text: ""
+  btn:
+    text: "View gallery"
+    url: "/topics/disability-independence-day/ADA35/"
+- title: "Proclamation"
+  img: ""
+  alt: ""
+  text: ""
+  btn:
+    text: "View gallery"
+    url: "/topics/disability-independence-day/proclamation/"
 - title: "T-shirts worn at the march"
   img: ""
   alt: ""
@@ -123,6 +116,13 @@ cards:
   btn:
     text: "View gallery"
     url: "/topics/disability-independence-day/t-shirts/"
+- title: "Platform"
+  img: ""
+  alt: ""
+  text: ""
+  btn:
+    text: "View gallery"
+    url: "/topics/disability-independence-day/platform/"
 - title: "Telecommunication Position Paper"
   img: ""
   alt: ""

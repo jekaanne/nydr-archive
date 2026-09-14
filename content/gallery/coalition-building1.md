@@ -1,5 +1,6 @@
 ---
 title: "MARCHA DE INDEPENDENCIA PARA PERSONAS CON IMPEDIMENTOS"
+citation: 
 featured: coalition-building1.jpg
 featuredAlt: A yellow flyer written in Spanish
 date: 1993-07-25
