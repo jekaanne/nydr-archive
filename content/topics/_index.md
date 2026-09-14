@@ -12,6 +12,13 @@ cards:
     btn:
       text: View primary sources
       url: /topics/transportation
+  - title: Disability Independence Day
+    img: didm-introduction.jpg
+    alt: Exhibit flyer with logo of DIDM '93, featuring a bust of the Statue of Liberty
+    text: Explore the history of the disability rights movement.
+    btn:
+      text: View primary sources
+      url: /topics/disability-independence-day
 ---
 We've identified more than 15 advocacy topics in the archive. Right now, very few of the topics are well-documented. We hope that changes in the coming years.
 
