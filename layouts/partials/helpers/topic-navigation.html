@@ -30,6 +30,7 @@
 {{- $nextPage := "" -}}
 
 {{- if ge $currentIndex 0 -}}
+  {{- /* Normal page in the list */ -}}
   {{- $prevIndex := sub $currentIndex 1 -}}
   {{- $nextIndex := add $currentIndex 1 -}}
   
@@ -39,6 +40,24 @@
   
   {{- if lt $nextIndex (len $flatList) -}}
     {{- $nextPage = index $flatList $nextIndex -}}
+  {{- end -}}
+{{- else -}}
+  {{- /* Section page not in the list. Find its first descendant. */ -}}
+  {{- $childIndex := -1 -}}
+  {{- range $index, $element := $flatList -}}
+    {{- if and (eq $childIndex -1) (hasPrefix $element.RelPermalink $page.RelPermalink) -}}
+      {{- $childIndex = $index -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- if ge $childIndex 0 -}}
+    {{- /* Next is the first child, Prev is the item before the first child */ -}}
+    {{- $nextPage = index $flatList $childIndex -}}
+    
+    {{- $prevIndex := sub $childIndex 1 -}}
+    {{- if ge $prevIndex 0 -}}
+      {{- $prevPage = index $flatList $prevIndex -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
