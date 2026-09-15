@@ -3,6 +3,8 @@ layout: docset-gallery
 title: "Disability Independence Day"
 weight: 2
 draft: false
+featured: "didm-introduction.jpg"
+featuredAlt: "Exhibit flyer with logo of DIDM '93, featuring a bust of the Statue of Liberty"
 cards:
 - title: "Introduction"
   img: "didm-introduction.jpg"
