@@ -8,7 +8,7 @@
   },
   "scripts": {
     "hugo": "echo 'Wrangler auto-build bypassed'",
-    "grant-permiso": "chmod +x node_modules/.bin/sass",
+    "grant-permiso": "chmod +x node_modules/sass/sass.js || chmod +x node_modules/.bin/sass",
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender",
     "dev:preview": "exec-bin node_modules/.bin/hugo/hugo server --gc --disableFastRender --buildFuture --buildDrafts",
     "build": "exec-bin node_modules/.bin/hugo/hugo --gc --cleanDestinationDir --minify",
