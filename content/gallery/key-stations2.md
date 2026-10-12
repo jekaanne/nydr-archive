@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "1990. Pamphlet about accessible subway stations. From the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:

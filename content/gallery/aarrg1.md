@@ -27,7 +27,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: 
+caption: "2019. Poster created by New York Lawyers for the Public Interest."
 archive_source: 
 source_link: 
 copyright: 

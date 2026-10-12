@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "2003. Cover photo for the Disabled In Action Singers album, “… and the Parking Spots Are Nothing But the Best.”"
 archive_source: 
 source_link: 
 copyright:

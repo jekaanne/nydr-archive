@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "1981. Photos from the Anne Emerman Collection."
 archive_source: 
 source_link: 
 copyright:

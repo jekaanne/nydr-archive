@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "2023 photo by Erick McGregor."
 archive_source: 
 source_link: 
 copyright:

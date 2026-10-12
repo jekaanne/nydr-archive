@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "2011. Photo from the DIA Collection."
 archive_source: 
 source_link: 
 copyright:

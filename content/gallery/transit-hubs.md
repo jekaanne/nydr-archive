@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "c. 1983. Poster created by the Eastern Paralyzed Veterans Association, part of the Carr Massi Collection. / c. 1994. Photos from MTA, “Accessible Travel on New York City Transit.”"
 archive_source: 
 source_link: 
 copyright:

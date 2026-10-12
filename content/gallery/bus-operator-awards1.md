@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "1983. The first bus operator awards ceremony was held at City Hall. From the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:

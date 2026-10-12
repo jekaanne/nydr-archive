@@ -45,5 +45,5 @@ Owning and parking a car can be expensive in the city. Many disabled people have
 - 2011: The Taxis for All campaign filed a lawsuit after attempts to pass a city council bill to increase the number of accessible taxis failed.
 - 2014: A settlement with the Taxis for All campaign required 50% of the TLC’s taxi fleet to be wheelchair accessible by 2020.
 - 2015: The TLC required hearing loops for deaf and hard-of-hearing passengers in new taxis.
-- 2025: TLC reaches 50% of wheelchair accessible vehicles in their “active” fleet.
+- 2025: TLC reaches 50% of wheelchair accessible vehicles in its “active” fleet.
 - 2025: The U.S. Department of Justice sued Uber for denying rides to passengers with guide dogs and wheelchairs.
