@@ -27,7 +27,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: 
+caption: "c. 1990s. Photo from the Disabled In Action (DIA) Collection."
 archive_source: 
 source_link: 
 copyright: 

@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "c. 1980s. Photo from the EPVA Collection. Denise McQuade worked for the MTA after her bus protest in 1981."
 archive_source: 
 source_link: 
 copyright:

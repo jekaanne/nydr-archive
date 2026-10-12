@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "c. 1940s. Photo from the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:

@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "c. 1960s. AHRC NYC Newsletter."
 archive_source: 
 source_link: 
 copyright:

@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "Translated poster from the Elevator Action Group."
 archive_source: 
 source_link: 
 copyright:

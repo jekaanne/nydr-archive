@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "1995. The 12th annual bus operator awards brochure. From the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:

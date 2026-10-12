@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "1975. My Travel Book, District 75 Travel Training program. From the Peggy Groce Collection."
 archive_source: 
 source_link: 
 copyright:

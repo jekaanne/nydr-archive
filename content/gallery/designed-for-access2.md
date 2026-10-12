@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "c. 2011. Standard Taxi booklet from the DIA Collection."
 archive_source: 
 source_link: 
 copyright:

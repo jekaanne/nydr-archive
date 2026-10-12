@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "1979. Booklet from the Peggy Groce Collection."
 archive_source: 
 source_link: 
 copyright:

@@ -27,7 +27,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: 
+caption: "c. 1992. Booklet from the Disabled In Action Collection."
 archive_source: 
 source_link: 
 copyright: 

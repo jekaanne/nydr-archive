@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "2016. Photo from WNYC."
 archive_source: 
 source_link: 
 copyright:

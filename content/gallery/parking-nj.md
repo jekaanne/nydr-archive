@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "1989. Booklet from the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:

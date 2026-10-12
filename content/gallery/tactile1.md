@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "Article from Disabled In Action Collection."
 archive_source: 
 source_link: 
 copyright:

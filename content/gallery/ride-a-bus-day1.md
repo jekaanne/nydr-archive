@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "1982. Poster from the Carr Massi Collection."
 archive_source: 
 source_link: 
 copyright:

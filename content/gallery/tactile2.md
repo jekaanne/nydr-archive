@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "Photo of the gap from the Peggy Groce Collection / Photo of bridgeplate from EPVA Collection / Tactile warning surface borrowed from the District 75 Travel Training program."
 archive_source: 
 source_link: 
 copyright:

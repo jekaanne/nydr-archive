@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: 
+caption: "1981. Pamphlet from the EPVA Collection. Key from the Jean Ryan Collection."
 archive_source: 
 source_link: 
 copyright:
