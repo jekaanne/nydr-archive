@@ -5,8 +5,8 @@ docset: transportation
 docsetTitle: Transportation access
 bundle: walking
 bundleTitle: Walking
-date: 
-displaydate: 
+date: 1990-01-01
+displaydate: "c. 1990s"
 title: Sidewalk
 author: 
 citation: 
@@ -27,7 +27,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: "c. 1990s. Photo from the Disabled In Action (DIA) Collection."
+caption: "Photo from the Disabled In Action (DIA) Collection."
 archive_source: 
 source_link: 
 copyright: 

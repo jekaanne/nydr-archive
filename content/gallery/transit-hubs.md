@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1983-01-01
+displaydate: "c. 1983, c. 1994"
 title: Transit Hubs
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "c. 1983. Poster created by the Eastern Paralyzed Veterans Association, part of the Carr Massi Collection. / c. 1994. Photos from MTA, “Accessible Travel on New York City Transit.”"
+caption: "Poster created by the Eastern Paralyzed Veterans Association, part of the Carr Massi Collection. / Photos from MTA, “Accessible Travel on New York City Transit.”"
 archive_source: 
 source_link: 
 copyright:

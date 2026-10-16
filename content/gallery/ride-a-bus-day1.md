@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1982-01-01
+displaydate: "1982"
 title: Ride A Bus Day1
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "1982. Poster from the Carr Massi Collection."
+caption: "Poster from the Carr Massi Collection."
 archive_source: 
 source_link: 
 copyright:

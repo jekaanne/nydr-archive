@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 2010-01-01
+displaydate: "c. 2010s"
 title: Designed For Access1
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "c. 2010s. MV1 Brochure from the DIA Collection."
+caption: "MV1 Brochure from the DIA Collection."
 archive_source: 
 source_link: 
 copyright:

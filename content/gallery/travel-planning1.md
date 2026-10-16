@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1975-01-01
+displaydate: "1975"
 title: Travel Planning1
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "1975. My Travel Book, District 75 Travel Training program. From the Peggy Groce Collection."
+caption: "My Travel Book, District 75 Travel Training program. From the Peggy Groce Collection."
 archive_source: 
 source_link: 
 copyright:

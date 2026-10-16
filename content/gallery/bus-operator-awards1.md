@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1983-01-01
+displaydate: "1983"
 title: Bus Operator Awards1
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "1983. The first bus operator awards ceremony was held at City Hall. From the EPVA Collection."
+caption: "The first bus operator awards ceremony was held at City Hall. From the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:

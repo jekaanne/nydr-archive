@@ -5,8 +5,8 @@ docset: transportation
 docsetTitle: Transportation access
 bundle: walking
 bundleTitle: Walking
-date: 
-displaydate: 
+date: 2011-01-01
+displaydate: "2011"
 title: PASS Coalition press conference
 author: 
 citation: 
@@ -27,7 +27,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: "2011. PASS Coalition President Karen Luxton Gourgey speaks at a press conference with NYC Department of Transportation officials."
+caption: "PASS Coalition President Karen Luxton Gourgey speaks at a press conference with NYC Department of Transportation officials."
 archive_source: 
 source_link: 
 copyright: 

@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1960-01-01
+displaydate: "c. 1960s"
 title: Navigating2
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "c. 1960s. AHRC NYC Newsletter."
+caption: "AHRC NYC Newsletter."
 archive_source: 
 source_link: 
 copyright:

@@ -5,8 +5,8 @@ docset: transportation
 docsetTitle: Transportation access
 bundle: walking
 bundleTitle: Walking
-date: 
-displaydate: 
+date: 2020-01-01
+displaydate: "c. 2020"
 title: Accessible Pedestrian Signals (APS)
 author: 
 citation: 
@@ -27,7 +27,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: "c. 2020. NYC Department of Transportation."
+caption: "NYC Department of Transportation."
 archive_source: 
 source_link: 
 copyright: 

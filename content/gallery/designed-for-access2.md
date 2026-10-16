@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 2011-01-01
+displaydate: "c. 2011"
 title: Designed For Access2
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "c. 2011. Standard Taxi booklet from the DIA Collection."
+caption: "Standard Taxi booklet from the DIA Collection."
 archive_source: 
 source_link: 
 copyright:

@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1940-01-01
+displaydate: "c. 1940s"
 title: Hand Driven Vehicle1
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "c. 1940s. Photo from the EPVA Collection."
+caption: "Photo from the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:
