@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 2023-01-01
+displaydate: "2023"
 title: Eag1
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "2023 photo by Erick McGregor."
+caption: "Photo by Erick McGregor."
 archive_source: 
 source_link: 
 copyright:

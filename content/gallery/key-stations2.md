@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1990-01-01
+displaydate: "1990"
 title: Key Stations2
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "1990. Pamphlet about accessible subway stations. From the EPVA Collection."
+caption: "Pamphlet about accessible subway stations. From the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:

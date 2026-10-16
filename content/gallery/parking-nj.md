@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1989-01-01
+displaydate: "1989"
 title: Parking Nj
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "1989. Booklet from the EPVA Collection."
+caption: "Booklet from the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:

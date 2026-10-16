@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1981-01-01
+displaydate: "1981"
 title: Anne Collage
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "1981. Photos from the Anne Emerman Collection."
+caption: "Photos from the Anne Emerman Collection."
 archive_source: 
 source_link: 
 copyright:

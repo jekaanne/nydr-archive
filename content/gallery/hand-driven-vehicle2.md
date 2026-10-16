@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 2013-01-01
+displaydate: "2013"
 title: Hand Driven Vehicle2
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "2013. Replica depiction of hand controls in FDR's car."
+caption: "Replica depiction of hand controls in FDR's car."
 archive_source: 
 source_link: 
 copyright:

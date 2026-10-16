@@ -5,8 +5,8 @@ docset: transportation
 docsetTitle: Transportation access
 bundle: walking
 bundleTitle: Walking
-date: 
-displaydate: 
+date: 1992-01-01
+displaydate: "c. 1992"
 title: One-Step Campaign (cover)
 author: 
 citation: 
@@ -27,7 +27,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: "c. 1992. Booklet from the Disabled In Action Collection."
+caption: "Booklet from the Disabled In Action Collection."
 archive_source: 
 source_link: 
 copyright: 

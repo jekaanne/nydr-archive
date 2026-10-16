@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1995-01-01
+displaydate: "1995"
 title: Bus Operator Awards2
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "1995. The 12th annual bus operator awards brochure. From the EPVA Collection."
+caption: "The 12th annual bus operator awards brochure. From the EPVA Collection."
 archive_source: 
 source_link: 
 copyright:

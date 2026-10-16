@@ -5,8 +5,8 @@ docset: transportation
 docsetTitle: Transportation access
 bundle: walking
 bundleTitle: Walking
-date: 
-displaydate: 
+date: 1970-01-01
+displaydate: "c. 1970s"
 title: Curb cuts (1)
 author: 
 citation: 
@@ -27,7 +27,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: "c. 1970s. Photo from the EPVA Collection."
+caption: "Photo from the EPVA Collection."
 archive_source: 
 source_link: 
 copyright: 

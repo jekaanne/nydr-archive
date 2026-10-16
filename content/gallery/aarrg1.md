@@ -5,8 +5,8 @@ docset: transportation
 docsetTitle: Transportation access
 bundle: walking
 bundleTitle: Walking
-date: 
-displaydate: 
+date: 2019-01-01
+displaydate: "2019"
 title: AARRG!
 author: 
 citation: 
@@ -27,7 +27,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: "2019. Poster created by New York Lawyers for the Public Interest."
+caption: "Poster created by New York Lawyers for the Public Interest."
 archive_source: 
 source_link: 
 copyright: 

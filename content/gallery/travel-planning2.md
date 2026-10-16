@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 1979-01-01
+displaydate: "1979"
 title: Travel Planning2
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "1979. Booklet from the Peggy Groce Collection."
+caption: "Booklet from the Peggy Groce Collection."
 archive_source: 
 source_link: 
 copyright:

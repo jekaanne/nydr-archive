@@ -3,8 +3,8 @@ layout: gallery
 draft: false
 docset:
 bundle:
-date: 1000-01-01
-displaydate: "1000-2000"
+date: 2016-01-01
+displaydate: "2016"
 title: Audible
 author:
 citation: 
@@ -24,7 +24,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "2016. Photo from WNYC."
+caption: "Photo from WNYC."
 archive_source: 
 source_link: 
 copyright:
