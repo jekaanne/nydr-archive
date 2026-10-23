@@ -7,9 +7,10 @@ date: 1980-01-01
 displaydate: "c. 1980s"
 title: Communication Help3
 author:
+creator: 
 citation: 
 featured: communication-help3.jpg
-featuredAlt: 
+featuredAlt: "A young man with Down syndrome holds up an open identification wallet to show a transit worker on a city street."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "Photo from the Peggy Groce Collection."
-archive_source: 
+caption: "A black-and-white street-level photograph showing a young man with Down syndrome wearing a plaid button-down shirt holding up an open identification card case toward a transit worker or bus operator wearing a dark vest over a white collared shirt with pens and route booklets in his pockets. The older man looks down attentively at the communication card while pedestrians and a city street are visible in the background."
+archive_source: "Peggy Groce Collection"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

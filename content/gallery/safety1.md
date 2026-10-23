@@ -7,9 +7,10 @@ date: 1980-01-01
 displaydate: "c. 1980"
 title: Safety1
 author:
+creator: 
 citation: 
 featured: safety1.jpg
-featuredAlt: 
+featuredAlt: "Two people walk side by side along an asphalt roadway next to a graffiti-covered corrugated metal fence, with one person resting a guiding arm on the other's shoulder."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "Photo from the EPVA Collection."
-archive_source: 
+caption: "A color photograph viewed from behind showing a person in a white hoodie and blue jeans walking alongside a young Black man in an orange plaid shirt, baggy jeans, and a dark green backpack along a paved urban street or industrial alleyway. The person on the left extends their right arm across the young man's shoulders as he looks to the right toward a corner where a graffiti-covered corrugated metal fence topped with barbed wire meets overgrown trees."
+archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

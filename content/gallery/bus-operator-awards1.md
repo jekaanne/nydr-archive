@@ -7,9 +7,10 @@ date: 1983-01-01
 displaydate: "1983"
 title: Bus Operator Awards1
 author:
+creator: 
 citation: 
 featured: bus-operator-awards1.jpg
-featuredAlt: 
+featuredAlt: "A large group of bus operators holding award certificates and three wheelchair users pose together inside New York City Hall."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "The first bus operator awards ceremony was held at City Hall. From the EPVA Collection."
-archive_source: 
+caption: "A black-and-white group photograph from the first Bus Operator Awards ceremony held at New York City Hall in 1983. Three wheelchair users—two men in suits and ties on the left and a woman wearing a white outfit on the right—sit in the front row, while approximately twenty bus operators and officials in suits and transit uniforms stand behind them holding white award certificates from the Eastern Paralyzed Veterans Association (EPVA). Tall windows and ornate interior columns are visible in the background."
+archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

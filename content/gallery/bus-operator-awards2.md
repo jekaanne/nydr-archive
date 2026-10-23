@@ -7,9 +7,10 @@ date: 1995-01-01
 displaydate: "1995"
 title: Bus Operator Awards2
 author:
+creator: "Eastern Paralyzed Veterans Association (EPVA); MTA New York City Transit"
 citation: 
 featured: bus-operator-awards2.jpg
-featuredAlt: 
+featuredAlt: "Cover of the brochure for the 12th New York City Bus Operator Awards Program."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "The 12th annual bus operator awards brochure. From the EPVA Collection."
-archive_source: 
+caption: "A color brochure cover on a light green background titled \"12th New York City Bus Operator Awards Program.\" The graphic design features a clock face pointing to 12 at the top left, a brown-and-white illustration of the front of a bus with a wheelchair user symbol on a deployed lift platform in the center, and a large steering wheel over a dashed road line at the bottom right. Text in the lower left reads: \"Awards Ceremony: Friday, November 20, 1998, 10 a.m., The Lighthouse, 111 E. 59th Street, New York, NY. Nominations accepted: Monday, September 21st through Friday, October 16th.\" Logos at the bottom right credit \"Sponsored by: Eastern Paralyzed Veterans Association\" and \"In cooperation with: MTA New York City Transit.\""
+archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

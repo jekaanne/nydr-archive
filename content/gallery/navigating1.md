@@ -7,9 +7,10 @@ date: 1960-01-01
 displaydate: "c. 1960s"
 title: Navigating1
 author:
+creator: "AHRC NYC"
 citation: 
 featured: navigating1.jpg
-featuredAlt: 
+featuredAlt: "An instructor holds up a replica \"EXPRESS\" subway sign at a table covered with other directional signs while a young man in glasses looks on."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "AHRC NYC Newsletter."
-archive_source: 
+caption: "A black-and-white photograph from an AHRC NYC newsletter showing a woman wearing a dark long-sleeved shirt, apron, and white headband standing behind a table and holding up a dark rectangular sign reading \"EXPRESS\" in bold white letters. Across the table, a young man wearing glasses, a white collared shirt, and a light vest looks at the sign, while other practice signs reading \"LOCAL,\" \"TO STREET,\" \"UPTOWN,\" \"DOWNTOWN,\" and \"MEN / WOMEN\" lie flat on the tabletop in front of a rack of white coats."
+archive_source: "AHRC NYC Newsletter"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.
