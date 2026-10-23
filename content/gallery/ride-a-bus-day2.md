@@ -7,9 +7,10 @@ date: 1982-01-01
 displaydate: "1982"
 title: Ride A Bus Day2
 author:
+creator: 
 citation: 
 featured: ride-a-bus-day2.jpg
-featuredAlt: 
+featuredAlt: "A man in a suit and tie seated in a wheelchair inside a city bus next to other passengers during Ride A Bus Day."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "Photo from the EPVA Collection."
-archive_source: 
+caption: "A black-and-white photograph taken inside a city bus showing a man with curly dark hair wearing a light-colored suit and striped tie, seated in a manual wheelchair secured in the designated wheelchair space with a large leather bag on his lap. To his right, an older woman wearing glasses and a dark coat sits on a bench seat holding a black purse and a patterned shopping bag, while three other passengers sit by the windows in the background."
+archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

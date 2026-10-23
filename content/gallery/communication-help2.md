@@ -7,9 +7,10 @@ date: 1980-01-01
 displaydate: "c. 1980s"
 title: Communication Help2
 author:
+creator: 
 citation: 
 featured: communication-help2.jpg
-featuredAlt: 
+featuredAlt: "A female MTA worker stands inside a city bus and speaks with seated passengers while handing out informational pamphlets."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "Photo from the Peggy Groce Collection."
-archive_source: 
+caption: "A black-and-white photograph taken inside city bus number 4922 showing a female MTA employee in a uniform vest, white shirt, and tie standing in the aisle and handing an informational brochure to an older Black woman seated by the window. Another woman wearing a name badge sits beside her holding the vertical grab bar, while overhead signs above the front windshield read \"4922,\" \"NOTICE,\" and \"STAND BEHIND WHITE LINE.\""
+archive_source: "Peggy Groce Collection"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

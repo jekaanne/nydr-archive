@@ -14,21 +14,29 @@
             {{$fileName:= .File.BaseFileName}}
             {{$galleryPage:= $.Site.GetPage (printf "gallery/%s" $fileName)}}
             {{with $galleryPage}}
+            {{$featuredAlt := .Params.featuredAlt}}
+            {{$itemTitle := .Title}}
             <div class="col-md-6 mb-5">
                 <div class="h-100">
                     <div class="d-flex justify-content-center pb-3">
                         {{ with .Params.featured }}
                         {{ $image := resources.Get (printf "/images/%s" .)}}
-                        <img data-pagefind-meta="image[src], image_alt[alt]" src="{{ ($image).RelPermalink }}" class="img-fluid mx-auto" alt="{{with $.Params.featuredAlt}}{{ . }}{{else}}{{$.Title}}{{end}}" style="max-width: 100%;"/>
+                        <img data-pagefind-meta="image[src], image_alt[alt]" src="{{ ($image).RelPermalink }}" class="img-fluid mx-auto" alt="{{with $featuredAlt}}{{ . }}{{else}}{{$itemTitle}}{{end}}" style="max-width: 100%;"/>
                         {{end}}
                     </div>
-                    {{ $hasRealDate := isset .Params "date" }}
-                    {{ $hasDisplayDate := and (isset .Params "displaydate") (ne .Params.Displaydate "[Placeholder for date]") }}
+                    {{ $hasRealDate := not .Date.IsZero }}
+                    {{ $hasDisplayDate := and (isset .Params "displaydate") (ne .Params.Displaydate nil) (ne .Params.Displaydate "") (ne .Params.Displaydate "[Placeholder for date]") }}
                     {{ if or $hasRealDate $hasDisplayDate }}
                     <p><strong>Date:</strong> {{ if $hasDisplayDate }}{{ .Params.Displaydate | page.RenderString | safeHTML}}{{ else }}{{ .Params.Date.Format "Jan 2, 2006" | page.RenderString | safeHTML}}{{ end }}</p>
                     {{ end }}
-                    {{ if and (isset .Params "caption") (ne .Params.caption "[Placeholder for image description]") }}
+                    {{ if and (isset .Params "caption") (ne .Params.caption nil) (ne .Params.caption "") (ne .Params.caption "[Placeholder for image description]") }}
                     <p><strong>Image Description:</strong> {{ .Params.caption | page.RenderString | safeHTML }}</p>
+                    {{ end }}
+                    {{ if .Params.creator }}
+                    <p><strong>Creator:</strong> {{ .Params.creator | page.RenderString | safeHTML }}</p>
+                    {{ end }}
+                    {{ if .Params.archive_source }}
+                    <p><strong>Source:</strong> {{ .Params.archive_source | page.RenderString | safeHTML }}</p>
                     {{ end }}
                     {{ if .Params.text }}<div class="pb-3 d-print-none"><a href="/plain-text/{{.Params.text}}">Read plain text of document</a></div>{{ end }}
                     {{ if .Params.detailedDescr }}<div class="pb-3 d-print-none"><a href="/plain-text/{{.Params.detailedDescr}}">Detailed image description</a></div>{{ end }}

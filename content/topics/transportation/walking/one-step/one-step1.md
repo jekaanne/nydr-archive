@@ -4,5 +4,5 @@ featured: one-step1.jpg
 featuredAlt: 
 layout: "tc-single"
 hasContentInGallery: true
-date: 
+date: 1992-01-01
 --- 

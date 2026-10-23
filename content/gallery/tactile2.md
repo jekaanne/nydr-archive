@@ -7,9 +7,10 @@ date:
 displaydate: 
 title: Tactile2
 author:
+creator: "New York Newsday; Richard Lee (photographer)"
 citation: 
 featured: tactile2.jpg
-featuredAlt: 
+featuredAlt: "Front page of New York Newsday from July 8, 1993, with the headline \"Blind Woman Killed: Tragedy On The Tracks.\""
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "Photo of the gap from the Peggy Groce Collection / Photo of bridgeplate from EPVA Collection / Tactile warning surface borrowed from the District 75 Travel Training program."
-archive_source: 
+caption: "A black-and-white scan of the front page of *New York Newsday* (Manhattan edition, Vol. 53, No. 308) dated Thursday, July 8, 1993. Across the top is the banner headline \"Blind Woman Killed,\" above a large main headline reading \"Tragedy On The Tracks / Falls in Front Of Subway Train Despite Guide Dog.\" The left side of the page is dominated by a large photograph by Richard Lee showing a dark-haired guide dog sitting on the ground, while an inset portrait at the top right shows Pamela Schneider with the caption: \"Guide dog Pepper, who was with Pamela Schneider at 34th Street station.\""
+archive_source: "Disabled In Action (DIA) Collection"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

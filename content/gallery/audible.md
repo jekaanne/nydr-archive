@@ -7,9 +7,10 @@ date: 2016-01-01
 displaydate: "2016"
 title: Audible
 author:
+creator: "WNYC"
 citation: 
 featured: audible.jpg
-featuredAlt: 
+featuredAlt: "Close-up upward view of a circular perforated speaker grille mounted in the ceiling of a New York City subway car."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "Photo from WNYC."
-archive_source: 
+caption: "A color photograph angled upward showing a round, white perforated loudspeaker grille flush-mounted into the white ceiling panel of a modern New York City subway car. Below the ceiling panel, the interior of the train car stretches into the background with overhead fluorescent lighting strips, advertisements, metal handrails, and a few passengers visible."
+archive_source: "WNYC"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

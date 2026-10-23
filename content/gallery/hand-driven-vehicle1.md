@@ -7,9 +7,10 @@ date: 1940-01-01
 displaydate: "c. 1940s"
 title: Hand Driven Vehicle1
 author:
+creator: 
 citation: 
 featured: hand-driven-vehicle1.jpg
-featuredAlt: 
+featuredAlt: "A black-and-white photograph of two men in wheelchairs and two standing men gathered beside a vintage sedan outside a brick hospital building."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "Photo from the EPVA Collection."
-archive_source: 
+caption: "A black-and-white photograph showing four men gathered next to a shiny Oldsmobile sedan with a 1951 New York license plate parked on a driveway in front of a large multi-story brick hospital building. Two of the men are seated in manual wheelchairs—one in a suit and one in a work shirt—while an older man in a three-piece suit and fedora stands beside the car holding a cane and a man in a white medical coat stands behind them."
+archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

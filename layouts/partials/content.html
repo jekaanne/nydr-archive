@@ -1,7 +1,13 @@
 <img class= "d-none" data-pagefind-meta="image[src], image_alt[alt]" src="/images/{{.Params.featured }}"alt="{{with $.Params.featuredAlt}}{{ . }}{{else}}{{$.Title}}{{end}}"/>
-<p><strong>Date:</strong> {{ if .Params.Displaydate }}{{ .Params.Displaydate | page.RenderString | safeHTML}}
+{{ $hasRealDate := not .Date.IsZero }}
+{{ $hasDisplayDate := and (isset .Params "displaydate") (ne .Params.Displaydate nil) (ne .Params.Displaydate "") (ne .Params.Displaydate "[Placeholder for date]") }}
+{{ if or $hasRealDate $hasDisplayDate }}
+<p><strong>Date:</strong> {{ if $hasDisplayDate }}{{ .Params.Displaydate | page.RenderString | safeHTML}}
     {{ else }}{{ .Params.Date.Format "Jan 2, 2006" | page.RenderString | safeHTML}}{{ end }}</p>
+{{ end }}
     {{ if .Params.caption }}<p><strong>Image Description:</strong> {{ .Params.caption | page.RenderString | safeHTML }}</p>{{ end }}
+    {{ if .Params.creator }}<p><strong>Creator:</strong> {{ .Params.creator | page.RenderString | safeHTML }}</p>{{ end }}
+    {{ if .Params.archive_source }}<p><strong>Source:</strong> {{ .Params.archive_source | page.RenderString | safeHTML }}</p>{{ end }}
 {{ if .Params.text }}
 <div class="pb-3 d-print-none"><a href="/plain-text/{{.Params.text}}">Read plain text of document</a></div>{{ end }}
 {{ if .Params.detailedDescr }}<div class="pb-3 d-print-none"><a href="/plain-text/{{.Params.detailedDescr}}">Detailed image description</a></div>{{ end }}

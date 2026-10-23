@@ -7,9 +7,10 @@ date:
 displaydate: 
 title: Tactile1
 author:
+creator: 
 citation: 
 featured: tactile1.jpg
-featuredAlt: 
+featuredAlt: "High-angle close-up of the gap between a subway train doorway threshold and a yellow tactile warning strip on the platform edge."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -24,28 +25,8 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "Article from Disabled In Action Collection."
-archive_source: 
+caption: "A high-angle color photograph looking down at the threshold between an open subway car door on the left and the yellow tactile warning edge of a subway platform on the right, separated by a narrow gap over the tracks. The metal threshold plate of the train car has a diamond-plate texture, and the yellow platform edge tiles feature raised truncated domes. In the lower right corner, the toe of a passenger's black-and-white canvas sneaker is visible stepping near the platform edge."
+archive_source: "Peggy Groce Collection"
 source_link: 
 copyright:
-categories:
-  - uncategorized
-tags:
-  - untagged
-questions:
-  - Question 1?
-  - Question 2?
-  - Question 3?
-references:
-  - Reference 1
-  - Reference 2
-  - Reference 3
 ---
-
-Some context for the item. Use Markdown styling (see link below)
-
-[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
-
-Here's a simple footnote,[^1]
-
-[^1]: This is the first footnote.

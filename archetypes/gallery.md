@@ -7,6 +7,7 @@ date: 1000-01-01
 displaydate: "1000-2000"
 title: Title in Title Case
 author:
+creator:
 citation: 
 featured: 
 featuredAlt: 
