@@ -55,5 +55,3 @@ Of course, there are planes to fit into and airports to navigate (and there have
 As a result of advocacy, things have improved. In 1994, New York became the first city to make all its local buses wheelchair accessible. But there are still problems. Express buses often have broken lifts, and bus operators don't always know how to help disabled passengers. Sometimes people in wheelchairs get stuck and can't get off the bus. This happened to Disabled In Action president, Jean Ryan, who told the MTA board in July 2025.
 
 Disabled New Yorkers have fought hard—and continue to fight—to improve transportation for everyone. Some of their biggest victories are still unfolding around us. Learn about how things used to be and how they will change in the future.
-
-As you look through the exhibit, you’ll notice this symbol. It means there’s a booklet you can look at on the tables.
