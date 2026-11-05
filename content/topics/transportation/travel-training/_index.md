@@ -33,6 +33,7 @@ cards:
   btn:
     text: View images
     url: /topics/transportation/travel-training/safety/
+weight: 6
 ---
 If people don’t know how to travel, they can’t access transportation. Most people learn to travel by going places with their family or on school trips. Sometimes we assume people know how to travel, but it's not always easy. Information and signs can be confusing. Directions can be hard without clear landmarks or at different times of day. It's easy to get distracted and miss a bus stop or get lost.
 

@@ -1,8 +1,8 @@
 ---
 title: "Telecommunication Position Paper"
 layout: subtopic-gallery
+weight: 18
 ---
-
 DIDM'93 DISABILITY INDEPENDENCE DAY MARCH
 Telecommunications For People with Disabilities
 DIDM '93 Position Paper

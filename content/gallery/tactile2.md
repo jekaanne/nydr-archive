@@ -25,7 +25,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "A black-and-white scan of the front page of *New York Newsday* (Manhattan edition, Vol. 53, No. 308) dated Thursday, July 8, 1993. Across the top is the banner headline \"Blind Woman Killed,\" above a large main headline reading \"Tragedy On The Tracks / Falls in Front Of Subway Train Despite Guide Dog.\" The left side of the page is dominated by a large photograph by Richard Lee showing a dark-haired guide dog sitting on the ground, while an inset portrait at the top right shows Pamela Schneider with the caption: \"Guide dog Pepper, who was with Pamela Schneider at 34th Street station.\""
+caption: "Front page of New York Newsday (July 8, 1993) with the banner headline \"Blind Woman Killed / Tragedy On The Tracks: Falls in Front Of Subway Train Despite Guide Dog,\" featuring a large image of guide dog Pepper and an inset portrait of Pamela Schneider."
 archive_source: "Disabled In Action (DIA) Collection"
 source_link: 
 copyright:

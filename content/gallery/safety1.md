@@ -10,7 +10,7 @@ author:
 creator: 
 citation: 
 featured: safety1.jpg
-featuredAlt: "Two people walk side by side along an asphalt roadway next to a graffiti-covered corrugated metal fence, with one person resting a guiding arm on the other's shoulder."
+featuredAlt: "Two people walking side by side along an asphalt roadway next to a graffiti-covered metal fence, with one resting a guiding arm on the other's shoulder."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -25,7 +25,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "A color photograph viewed from behind showing a person in a white hoodie and blue jeans walking alongside a young Black man in an orange plaid shirt, baggy jeans, and a dark green backpack along a paved urban street or industrial alleyway. The person on the left extends their right arm across the young man's shoulders as he looks to the right toward a corner where a graffiti-covered corrugated metal fence topped with barbed wire meets overgrown trees."
+caption: "Viewed from behind, a person in a white hoodie walks along a paved urban street with a guiding arm across the shoulders of a young Black man in an orange plaid shirt and backpack as he looks toward the corner."
 archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:

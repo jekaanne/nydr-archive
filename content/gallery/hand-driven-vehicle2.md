@@ -10,7 +10,7 @@ author:
 creator: 
 citation: 
 featured: hand-driven-vehicle2.jpg
-featuredAlt: "A color photograph of a museum exhibit replica showing the mechanical hand-control levers attached to the steering column and pedals of Franklin D. Roosevelt's car."
+featuredAlt: "Museum exhibit replica showing mechanical hand-control levers attached to the steering column and pedals of Franklin D. Roosevelt's car."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -25,7 +25,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "A color photograph of a museum display replica depicting the mechanical hand controls used in President Franklin D. Roosevelt's automobile. The exhibit features a vintage three-spoke steering wheel mounted on a beige dashboard housing two circular gauges, with metal hand levers extending from the steering column and floor to operate the clutch, brake, and accelerator pedals below."
+caption: "Museum replica of the mechanical hand controls used in President Franklin D. Roosevelt's car, featuring metal levers extending from the steering column and floor to operate the clutch, brake, and accelerator pedals."
 archive_source: 
 source_link: 
 copyright:

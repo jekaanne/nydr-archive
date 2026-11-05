@@ -1,6 +1,7 @@
 ---
 title: "DIDM '93 Platform"
 layout: subtopic-gallery
+weight: 17
 ---
 PLATFORM
 FOR THE SECOND ANNUAL

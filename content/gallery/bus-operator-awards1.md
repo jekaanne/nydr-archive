@@ -10,7 +10,7 @@ author:
 creator: 
 citation: 
 featured: bus-operator-awards1.jpg
-featuredAlt: "A large group of bus operators holding award certificates and three wheelchair users pose together inside New York City Hall."
+featuredAlt: "Bus operators holding award certificates and three wheelchair users posing together inside New York City Hall."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -25,7 +25,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "A black-and-white group photograph from the first Bus Operator Awards ceremony held at New York City Hall in 1983. Three wheelchair users—two men in suits and ties on the left and a woman wearing a white outfit on the right—sit in the front row, while approximately twenty bus operators and officials in suits and transit uniforms stand behind them holding white award certificates from the Eastern Paralyzed Veterans Association (EPVA). Tall windows and ornate interior columns are visible in the background."
+caption: "Group portrait from the first Bus Operator Awards ceremony at New York City Hall in 1983. Three wheelchair users sit in the front row while roughly twenty bus operators and officials stand behind them holding EPVA award certificates."
 archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:

@@ -33,6 +33,7 @@ cards:
   btn:
     text: View images
     url: /topics/transportation/automobiles/taxis-for-all/
+weight: 2
 ---
 In New York City, cars, taxis, and for-hire vehicles are reliable ways for people with disabilities to get around. But they haven’t always been fully accessible. Many people with disabilities travel in standard vehicles. This includes some wheelchair users who can transfer to a seat and fold their manual chairs. People who use motorized wheelchairs need vehicles with ramps.
 

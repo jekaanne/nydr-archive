@@ -1,8 +1,8 @@
 ---
 title: "Trump Tower Press Release"
 layout: subtopic-gallery
+weight: 19
 ---
-
 PRESS RELEASE
 MEDIA CONTACT:
 Nadina LaSpina (contact info redacted)

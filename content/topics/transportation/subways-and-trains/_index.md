@@ -33,6 +33,7 @@ cards:
   btn:
     text: View images
     url: /topics/transportation/subways-and-trains/elevator-action-group/
+weight: 5
 ---
 Most subways were built in the 1930s, before wheelchair access was considered important. After World War II, veterans pushed for accessible public transportation laws, but officials said it would cost too much.
 

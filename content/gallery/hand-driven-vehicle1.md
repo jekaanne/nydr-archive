@@ -10,7 +10,7 @@ author:
 creator: 
 citation: 
 featured: hand-driven-vehicle1.jpg
-featuredAlt: "A black-and-white photograph of two men in wheelchairs and two standing men gathered beside a vintage sedan outside a brick hospital building."
+featuredAlt: "Two men in wheelchairs and two standing men gathered beside a vintage sedan outside a brick hospital building."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -25,7 +25,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "A black-and-white photograph showing four men gathered next to a shiny Oldsmobile sedan with a 1951 New York license plate parked on a driveway in front of a large multi-story brick hospital building. Two of the men are seated in manual wheelchairs—one in a suit and one in a work shirt—while an older man in a three-piece suit and fedora stands beside the car holding a cane and a man in a white medical coat stands behind them."
+caption: "Four men gather beside a 1951 Oldsmobile sedan parked outside a brick hospital building. Two men sit in manual wheelchairs while a man in a three-piece suit with a cane and a man in a white medical coat stand behind them."
 archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:

@@ -26,6 +26,7 @@ cards:
   btn:
     text: View images
     url: /topics/transportation/paratransit/access-a-ride/
+weight: 3
 ---
 People who relied on cars advocated for a public paratransit option that was affordable and accessible. Medicaid became a source to pay for trips for medical purposes in the 1970s. Advocates pushed for paratransit for any reason. This set the stage for New York City’s Access-A-Ride program.
 

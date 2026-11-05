@@ -28,7 +28,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: "The front cover of a white-and-green booklet titled \"ONE STEP CAMPAIGN,\" with the top heading \"Removing barriers in small businesses.\" The graphic design divides the page diagonally with a green wedge resembling a ramp leading up to a single step, where a black International Symbol of Access (wheelchair icon) sits at the top right. Black text at the bottom reads: \"A PROJECT OF Disabled in Action of Metropolitan New York\" followed by \"CO-SPONSORING GROUPS: Barrier Free Living, Eastern Paralyzed Veterans Association, Northeast Disability and Business Technical Assistance Center, Pratt Planning and Architectural Collaborative, The Independent Living Centers of New York City.\""
+caption: "White-and-green cover of the \"ONE STEP CAMPAIGN: Removing barriers in small businesses\" booklet by Disabled in Action of Metropolitan New York, featuring a green ramp wedge leading up to a wheelchair symbol and a list of co-sponsoring disability and architectural groups."
 archive_source: "Disabled In Action (DIA) Collection"
 source_link: 
 copyright: 

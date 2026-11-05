@@ -10,7 +10,7 @@ author:
 creator: 
 citation: 
 featured: low-floor-bus2.jpg
-featuredAlt: "Disability activist Denise McQuade in a wheelchair using a mechanical bus lift to board or exit a bus."
+featuredAlt: "Disability activist Denise McQuade in a wheelchair using a mechanical bus lift."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -25,7 +25,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "A black-and-white photograph viewed from the street looking directly into the doorway of an accessible bus as Denise McQuade rides the wheelchair lift. She has dark shoulder-length hair with bangs, wears a dark leather jacket and patterned scarf, and rests her hands on a dark handbag in her lap while seated in a manual wheelchair on the lift platform. Instructional plaques and folded seats are visible inside the bus interior behind her. Denise McQuade worked for the MTA after her bus protest in 1981."
+caption: "Disability activist Denise McQuade sits in a manual wheelchair on a bus wheelchair lift platform, wearing a dark leather jacket and patterned scarf. McQuade worked for the MTA after her 1981 bus protest."
 archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:

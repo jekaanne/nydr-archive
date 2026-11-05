@@ -1,23 +1,27 @@
 {{- define "collect-sections" -}}
   {{- $page := .page -}}
   {{- $scratch := .scratch -}}
-  {{- /* Only add if it's a section, and skip the root topics section itself */ -}}
-  {{- if and (eq $page.Kind "section") (ne $page.RelPermalink "/topics/") -}}
+  {{- /* Only add image grouping / subtopic-gallery pages (skip docset-gallery landing pages) */ -}}
+  {{- if eq $page.Params.layout "subtopic-gallery" -}}
     {{- $scratch.Add "list" (slice $page) -}}
   {{- end -}}
-  {{- /* .Sections iterates over sub-sections recursively */ -}}
-  {{- range $page.Sections -}}
+  {{- /* Recurse over child sections in weight order */ -}}
+  {{- range $page.Sections.ByWeight -}}
     {{- template "collect-sections" (dict "page" . "scratch" $scratch) -}}
+  {{- end -}}
+  {{- /* Also include leaf bundle subtopic-gallery pages (e.g. index.md) in weight order */ -}}
+  {{- range where $page.RegularPages.ByWeight "Params.layout" "subtopic-gallery" -}}
+    {{- $scratch.Add "list" (slice .) -}}
   {{- end -}}
 {{- end -}}
 
 {{- $page := . -}}
-{{- if eq $page.Kind "section" -}}
+{{- if or (eq $page.Kind "section") (eq $page.Params.layout "subtopic-gallery") -}}
 
 {{- $scratch := newScratch -}}
 {{- $scratch.Set "list" slice -}}
 
-{{- /* Recursively collect section pages in order */ -}}
+{{- /* Recursively collect subtopic-gallery pages in exhibition weight order */ -}}
 {{- template "collect-sections" (dict "page" (.Site.GetPage "section" "topics") "scratch" $scratch) -}}
 
 {{- $flatList := $scratch.Get "list" -}}
@@ -50,7 +54,7 @@
     <div class="float-left g-5">
         {{- if $prevPage -}}
             <a class="previous btn btn-primary text-left" href="{{ $prevPage.RelPermalink }}">
-                Previous item
+                Previous topic
             </a>
         {{- end -}}
     </div>
@@ -58,7 +62,7 @@
     <div class="float-right g-5">
         {{- if $nextPage -}}
             <a class="next btn btn-primary text-right" href="{{ $nextPage.RelPermalink }}">
-                Next item
+                Next topic
             </a>
         {{- end -}}
     </div>

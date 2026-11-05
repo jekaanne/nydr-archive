@@ -28,7 +28,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname: 
-caption: "A close-up color photograph of an Accessible Pedestrian Signal (APS) unit mounted on a gray metal pole at a busy New York City intersection, with Brooklyn Borough Hall and street traffic blurred in the background. The top rectangular white-and-black sign features an icon of a pedestrian walking with a white cane above the text \"PUSH BUTTON FOR AUDIBLE SIGNAL.\" Below the sign is a bright yellow housing containing a circular push button with a raised, tactile two-way horizontal arrow."
+caption: "Close-up of an Accessible Pedestrian Signal (APS) unit on a street pole near Brooklyn Borough Hall, showing a \"PUSH BUTTON FOR AUDIBLE SIGNAL\" sign with a white-cane pedestrian icon above a yellow housing and tactile arrow button."
 archive_source: "NYC Department of Transportation"
 source_link: 
 copyright: 

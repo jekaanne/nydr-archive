@@ -2,8 +2,6 @@
 layout: docset-gallery
 title: How did we get here? Transportation Access in New York
 weight: 1
-featured: elizabeth-cisco.jpg
-featuredAlt: Mrs. Elizabeth Cisco is a Black woman seated in an ornate chair and wearing a formal full-length dress
 draft: false
 cards:
 - title: Walking
@@ -59,16 +57,3 @@ As a result of advocacy, things have improved. In 1994, New York became the firs
 Disabled New Yorkers have fought hard—and continue to fight—to improve transportation for everyone. Some of their biggest victories are still unfolding around us. Learn about how things used to be and how they will change in the future.
 
 As you look through the exhibit, you’ll notice this symbol. It means there’s a booklet you can look at on the tables.
-
-## Accessible Transit Traveler
-
-After the ADA passed, EPVA wrote the Accessible Transit Traveler. The brochure explained the changes that were supposed to be made by transportation agencies. It also outlined deadlines for making the improvements. EVPA fought for access to all forms of transportation
-
-1990. Booklet from the Eastern Paralyzed Veterans Association (EPVA) Collection.
-
-## Eastern Paralyzed Veterans Association (EPVA)
-
-EPVA led the fight for accessible public transit in the NYC area before the ADA. They campaigned for accessibility in all kinds of mass transportation, including subways, buses, commuter rail, and ferries.
-
-Top: c. 1980s Poster from the Carr Massi Collection
-Bottom: c 1990s. Photos from the EPVA Collection

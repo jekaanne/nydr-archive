@@ -10,7 +10,7 @@ author:
 creator: "AHRC NYC"
 citation: 
 featured: navigating2.jpg
-featuredAlt: "A young man with Down syndrome carrying a folder under his arm steps onto the front entrance of a city bus."
+featuredAlt: "Young man with Down syndrome carrying a folder under his arm as he steps onto a city bus."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -25,7 +25,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "A black-and-white photograph from an AHRC NYC newsletter showing a young man with Down syndrome dressed in a light jacket and dark trousers stepping onto the front boarding step of a vintage New York City bus. He holds a large envelope and paperwork tucked under his right arm and looks back toward the camera with a slight smile, while the side of the bus displays \"15¢ FARE\" on the window and the front license plate reads \"0-3579 NY FRAN-BUS 60.\""
+caption: "A young man with Down syndrome carrying a large envelope under his arm smiles back toward the camera as he steps onto the front entrance of a vintage New York City bus marked \"15¢ FARE.\""
 archive_source: "AHRC NYC Newsletter"
 source_link: 
 copyright:

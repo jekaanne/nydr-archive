@@ -33,6 +33,7 @@ cards:
   btn:
     text: View images
     url: /topics/transportation/buses/bus-operator-awards/
+weight: 4
 ---
 Today's buses have low floors and ramps that fold out for wheelchair users. But older buses were much harder to use. They had steps that folded down and doubled as wheelchair lifts. The bus driver had to leave their seat, go to the back, and use a key to operate the lift. Then they had to secure the wheelchair in place. This took up to five minutes, making other passengers angry and embarrassing disabled riders.
 

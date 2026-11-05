@@ -33,6 +33,7 @@ cards:
   btn:
     text: View images
     url: /topics/transportation/walking/aps/
+weight: 1
 ---
 Walking connects people to places and other modes of transportation. People who use wheelchairs still “walk,” and they credit their freedom and independence to their wheelchairs. Archive donor Carr Massi remembered in an oral history interview how her father built a seat he could use to carry her from place to place when she was a child (before modern wheelchairs).
 

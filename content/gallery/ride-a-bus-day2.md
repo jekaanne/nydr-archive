@@ -10,7 +10,7 @@ author:
 creator: 
 citation: 
 featured: ride-a-bus-day2.jpg
-featuredAlt: "A man in a suit and tie seated in a wheelchair inside a city bus next to other passengers during Ride A Bus Day."
+featuredAlt: "Man in a suit and tie seated in a wheelchair inside a city bus next to other passengers."
 detailedDescr: 
 embed: 
 embedTitle: 
@@ -25,7 +25,7 @@ relImg:
 relImgAlt: 
 relLink: 
 eventname:
-caption: "A black-and-white photograph taken inside a city bus showing a man with curly dark hair wearing a light-colored suit and striped tie, seated in a manual wheelchair secured in the designated wheelchair space with a large leather bag on his lap. To his right, an older woman wearing glasses and a dark coat sits on a bench seat holding a black purse and a patterned shopping bag, while three other passengers sit by the windows in the background."
+caption: "A man in a suit and striped tie sits in a manual wheelchair secured inside a city bus with a leather bag on his lap, alongside several other seated passengers."
 archive_source: "Eastern Paralyzed Veterans Association (EPVA) Collection"
 source_link: 
 copyright:
