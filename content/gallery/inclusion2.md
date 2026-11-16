@@ -1,9 +1,9 @@
 ---
-title: "Police lead the march"
+title: Marchers with signs
 citation: 
 featured: inclusion2.jpg
-featuredAlt: A blue police car leads a large group of marchers down a major city street.
-caption: Looking down a long city street with tall buildings. A blue New York City police car drives slowly in the center, leading a massive banner-carrying crowd of disability rights marchers down the closed roadway.
+featuredAlt: "Protesters and wheelchair users gather on a wide city street during a demonstration."
+caption: "Activists and wheelchair users gather on Madison Avenue during the march, holding signs including a round \"NOW\" (National Organization for Women) placard."
 date: 1993-07-25
 draft: false
 ---

@@ -1,45 +1,51 @@
 ---
-title: "MARCHA DE INDEPENDENCIA PARA PERSONAS CON IMPEDIMENTOS"
+title: ATTENTION LESBIANS, GAYS & BISEXUALS
 citation: 
 featured: coalition-building1.jpg
-featuredAlt: A yellow flyer written in Spanish
+featuredAlt: A yellow flyer
 date: 1993-07-25
 draft: false
 ---
 
-## VENGAN TODOS !!!
+(A small icon of ASL and the International Symbol of Access: an icon of a person in a wheelchair are at the top of the flyer)
 
-UNIDAD
-VENGAN TODOS !!!
-VENGAN TODOS !!!
-MARCHA DE INDEPENDENCIA
-PARA PERSONAS CON IMPEDIMENTOS
+## YOU HAVE SHOWN US THE WAY
 
-Domingo, 25 De Julio De 1993
-Fuerza Dignidad Celebrando El Tercer Aniversario De Haberse Firmado El
-Decreto "Americans With Disabilities Act (Ada) " De 1990
+NOW MARCH WITH US ON DISABILITY INDEPENDENCE DAY
+SUNDAY JULY 25, 1993
+WHERE? Madison Ave., & 41st St
+WHERE TO? Madison & 23rd St. (Rally site)
+WHAT FOR? To Celebrate the Americans with Disabilities Act Anniversary
+& First-ever Disability Pride Day
+WHEN? Assemble at noon; march at 1 pm
+THEN WHAT? Rally 2-4 pm & Rock Out with Johnny Crescendo
+(til the cows come home or the cops come down)
 
-La Marcha Comenzara A La 1:00 P.M. En La Calle 42 y La Avenida
-Madison, Hasta El Punto De Reunion En La Calle 26 y La 5a Avenida
+## WHO'S GONNA BE THERE?
 
-Maestros De La Marcha - Justin Dart & Judy Heumann
-Invitado De Honor - Cleveland Robinson
-Oradores Principales - Frank Bowe, Bob Griese, y Gary Olsen
-Presentaciones Por: El Teatro Nacional De Los Sordos,
-"Nuestro Coro De La Calle" Y Johnny Crescendo
-Maestro De Ceremonias - Henry Holden
-Interpretes Del American Sign Language Estaran Presentes
-Abogue Con Nosotros Para Obtener:
-Atencion Medica Universal Como Un Derecho, No On Privilegio
-Comunicacion Universal - Esperanza y Vision
+### SPEAKERS
 
-Para Obtener Mas Informacion, Transportacion O Ayuda, O Para
-Prestar Sus Servicios Voluntarios Llame:
+Frank Bowe, Marca Bristo, Keith Cylar, Justin Dart, Bob Griss,
+Paul Hearne, Judy Heumann, Greg Hlibok, Ottmar Miles-Paul,
+Gary Olsen and Cleveland Robinson
 
-En Español:
-Rolando Alvarez
-(212) ###-####
-TTY
-Franklin Zavala (212) ###-####
-Daniel Robert
-(212) ###-####
+### MASTERS OF CEREMONIES
+
+John Hockenberry and Henry Holden
+
+### PERFORMERS
+
+Celia Brin, Cantor Steven Cassell, DIA Singers, Jackie DiLorenzo
+and Sundance, Peggy Eason, Elaine Kolb, Eric Levine, National
+Theatre of the Deaf, Onyx Theatre, The NY. C Streetsingers,
+Shot in the Dark
+
+## Lesbians, Gays, Bis: We NEED You!
+
+We need your strength!
+We need your courage!
+We need your numbers!
+
+For info and to volunteer (we need wheelchair pushers, etc.):
+Nadina: 718/###-#### • Daniel 212/###-#### • Gerry 718/###-#### • Franklin (TY) 212/###-####
+Events will be American Sign Language Interpreted

@@ -1,9 +1,9 @@
 ---
-title: Crowds gather
+title: "Police lead the march"
 citation: 
 featured: inclusion1.jpg
-featuredAlt: "A huge crowd of protesters fill the street, which is lined with tall buildings and trees."
-caption: "Thousands of rally attendees, many seated in rows of chairs or using wheelchairs, fill Madison Avenue between city skyscrapers and green trees."
-date: 2025-07-25
+featuredAlt: A blue police car leads a large group of marchers down a major city street.
+caption: Looking down a long city street with tall buildings. A blue New York City police car drives slowly in the center, leading a massive banner-carrying crowd of disability rights marchers down the closed roadway.
+date: 1993-07-25
 draft: false
 ---

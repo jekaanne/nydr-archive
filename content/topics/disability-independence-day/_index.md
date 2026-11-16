@@ -57,14 +57,14 @@ cards:
     url: "/topics/disability-independence-day/identity/"
 - title: "Inclusion"
   img: "inclusion1.jpg"
-  alt: "A huge crowd of protesters fill the street, which is lined with tall buildings and trees."
+  alt: "A blue police car leads a large group of marchers down a major city street."
   text: ""
   btn:
     text: "View gallery"
     url: "/topics/disability-independence-day/inclusion/"
 - title: "Political Power"
   img: "political-power1.jpg"
-  alt: "A group of activists stands side-by-side across a city street during a historic march."
+  alt: "Marchers in matching \"Garfield Manor\" t-shirts walk down a city street, one holding a campaign sign."
   text: ""
   btn:
     text: "View gallery"
@@ -92,7 +92,7 @@ cards:
     url: "/topics/disability-independence-day/solidarity/"
 - title: "Coalition Building"
   img: "coalition-building1.jpg"
-  alt: "A yellow flyer written in Spanish"
+  alt: "A yellow flyer"
   text: ""
   btn:
     text: "View gallery"

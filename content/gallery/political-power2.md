@@ -1,9 +1,9 @@
 ---
-title: "Mayor Dinkins supporters"
+title: "Politicians at the march"
 citation: 
 featured: political-power2.jpg
-featuredAlt: Marchers in matching "Garfield Manor" t-shirts walk down a city street, one holding a campaign sign.
-caption: A man and a woman wear white t-shirts that read "Garfield Special Olympians" and "Garfield Manor" along with matching hats. Behind them, an attendee holds a blue political sign that reads "RE-ELECT MAYOR DAVID N. DINKINS '93".
+featuredAlt: A group of activists stands side-by-side across a city street during a historic march.
+caption: Then mayoral candidate, Rudy Giuliani marches next to several disability rights leaders lined up across a New York City avenue. The group includes wheelchair users and one person using a white cane, standing together in front of city storefronts and buildings.
 date: 1993-07-25
 draft: false
 ---
